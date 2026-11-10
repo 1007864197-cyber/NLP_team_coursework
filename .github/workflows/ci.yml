@@ -20,5 +20,17 @@ jobs:
         run: python -m pip install -r requirements.txt -c constraints-model.txt
       - name: Functional and API checks
         run: python -m unittest discover -s tests -v
+      - name: Verify fitted model and grouped data provenance
+        run: python training/verify_artifact.py
       - name: Real HTTP and command line smoke check
         run: python tests/smoke_interfaces.py
+  windows-startup:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Bootstrap using the actual Windows launcher and check the model
+        shell: cmd
+        run: START_WINDOWS.bat --check

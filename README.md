@@ -10,17 +10,19 @@ The frozen 72-question authored evaluation records **81.94%** complete-system in
 
 1. Install Python 3.11 or newer if it is not already installed.
 2. Extract the entire project ZIP to a normal writable folder.
-3. Double-click `START_WINDOWS.bat`. The first run creates a project-local environment and installs the dependencies, which requires internet access. Later runs use the installed environment.
-4. Open **http://127.0.0.1:8765** in your browser. Keep the server window running. Press Ctrl+C in that window to stop it.
+3. Double-click `START_WINDOWS.bat`. It validates a working Python interpreter, creates a project-local environment and installs the dependencies on first use. First-time installation requires internet access; subsequent starts reuse the environment.
+4. The browser opens **http://127.0.0.1:8765** when the application is ready. Keep the server window running. Press Ctrl+C in that window to stop it.
 
-If Windows cannot find Python, install it from https://www.python.org/downloads/ and enable the Python launcher or add Python to PATH. If the port is already in use, stop the earlier copy before restarting.
+The launcher checks the actual interpreter, so an installed `py` command with a stale registered Python path does not prevent it using a working `python` command. If no valid Python 3.11+ is found, install it from https://www.python.org/downloads/ and add it to PATH. If Olive Table is already running, the launcher reopens its page; it does not stop other programs using the port.
+
+For a setup check without opening a browser or starting a server, run `START_WINDOWS.bat --check` in the project folder. To start without opening a browser, use `START_WINDOWS.bat --no-browser`. To choose another port, use `START_WINDOWS.bat --port 8770`. Installation downloads are cached inside the ignored project environment.
 
 ## Manual start on Windows
 
 ```powershell
-py -3 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt -c constraints-model.txt
-.\.venv\Scripts\python.exe app.py
+.\.venv\Scripts\python.exe launch.py
 ```
 
 On macOS or Linux:
@@ -28,7 +30,7 @@ On macOS or Linux:
 ```sh
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt -c constraints-model.txt
-.venv/bin/python app.py
+.venv/bin/python launch.py
 ```
 
 After installation the complete application runs locally without an API key, paid model, external fonts, CDN or network connection. The Flask development server is appropriate for this local demonstration.
@@ -72,6 +74,7 @@ The evaluation writes machine-readable results and an explanation under `evaluat
 ## Project contents
 
 - `app.py`: Flask routes, input validation and isolated, temporary sessions.
+- `launch.py`: readiness checks, browser opening, setup diagnostics and port handling.
 - `restaurant_bot/`: retrieval, language processing and dialogue state.
 - `training/`: supervised training source, authored corpus and grouped split manifest.
 - `models/`: the actual fitted model and measured development comparison.
