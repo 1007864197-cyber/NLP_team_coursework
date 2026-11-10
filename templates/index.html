@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#294836">
+  <meta name="description" content="Meet Olive, your conversational guide to the Olive Table menu and restaurant.">
+  <title>Olive Table — A seat at our table</title>
+  <link rel="icon" href="/static/olive-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#message">Skip to the conversation</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Olive Table home">
+      <img src="/static/olive-mark.svg" alt="" width="43" height="50">
+      <span class="brand-name">olive table<span class="brand-subtitle">MEDITERRANEAN KITCHEN</span></span>
+    </a>
+    <div class="header-links">
+      <a href="#menu-section">Explore the menu <span aria-hidden="true">↗</span></a>
+      <span class="header-divider" aria-hidden="true"></span>
+      <span class="header-caption">Good food. Warm welcomes.</span>
+    </div>
+  </header>
+
+  <main class="experience-grid">
+    <section class="restaurant-column" aria-label="Discover Olive Table">
+      <div class="introduction">
+        <p class="eyebrow"><span></span> A SEAT AT OUR TABLE</p>
+        <h1>A little taste.<br>A lovely conversation.</h1>
+        <p class="intro-copy">Find your next favourite dish, plan your visit, or simply ask us a question. Olive is here to help.</p>
+        <img class="intro-branch" src="/static/olive-branch.svg" alt="" width="160" height="210">
+      </div>
+
+      <figure class="food-portrait">
+        <img src="/static/mediterranean-table.png" alt="Roasted aubergine, a lentil bowl and hummus on a sunlit Mediterranean table" width="1672" height="941" fetchpriority="high">
+        <figcaption>Seasonal ingredients. Mediterranean inspiration.</figcaption>
+      </figure>
+      <div class="visit-strip">
+        <div class="visit-item">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>
+          <div><span class="small-label">COME ON IN</span><p id="opening-summary">Loading opening hours…</p></div>
+        </div>
+        <div class="visit-item">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></svg>
+          <div><span class="small-label">FIND YOUR WAY</span><p id="address-summary">Loading restaurant details…</p></div>
+        </div>
+      </div>
+
+      <section class="menu-section" id="menu-section" aria-labelledby="menu-title">
+        <div class="section-heading"><div><p class="eyebrow">FRESH FROM OUR KITCHEN</p><h2 id="menu-title">Something for you.</h2></div><span class="menu-count" id="menu-count" aria-live="polite">THE MENU</span></div>
+        <div class="menu-search-controls"><label class="sr-only" for="menu-search">Search the menu</label><div class="menu-search-wrap"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="menu-search" type="search" placeholder="Find a favourite…" autocomplete="off"></div><label class="sr-only" for="menu-category">Menu category</label><select id="menu-category"><option value="all">All categories</option></select></div>
+        <div class="menu-filters" role="group" aria-label="Filter menu by dietary preference">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All dishes</button>
+          <button class="filter-button" type="button" data-filter="vegetarian" aria-pressed="false">Vegetarian</button>
+          <button class="filter-button" type="button" data-filter="vegan" aria-pressed="false">Vegan</button>
+          <button class="filter-button" type="button" data-filter="gluten-free" aria-pressed="false">Gluten-free</button>
+        </div>
+        <div class="menu-list" id="menu-list" tabindex="0" aria-label="Restaurant dishes">
+          <div class="menu-placeholder"><span class="loading-leaf" aria-hidden="true"></span><p>Setting the table…</p></div>
+        </div>
+        <p class="allergy-note"><svg aria-hidden="true" viewBox="0 0 18 18"><circle cx="9" cy="9" r="7"/><path d="M9 8v4M9 5.2v.3"/></svg>Dietary tags are a guide. Please speak to staff about allergies and cross-contact.</p>
+      </section>
+
+      <details class="restaurant-details">
+        <summary>Before your visit <svg aria-hidden="true" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4"/></svg></summary>
+        <div class="restaurant-details-body"><div><h3>Opening hours</h3><div id="full-hours"></div></div><div><h3>Say hello</h3><p id="contact-details"></p><p class="booking-note">For a reservation, Olive can explain how to contact the team. This prototype does not make bookings.</p></div></div>
+      </details>
+    </section>
+
+    <section class="chat-card" aria-labelledby="chat-title">
+      <div class="chat-header">
+        <div class="olive-avatar" aria-hidden="true"><img src="/static/olive-mark.svg" alt="" width="28" height="34"></div>
+        <div class="chat-heading"><h2 id="chat-title">Meet Olive</h2><p><span class="status-dot" id="status-dot"></span><span id="service-status">Getting ready…</span></p></div>
+        <div class="chat-tools">
+          <button type="button" class="icon-button" id="export-chat" title="Download conversation" aria-label="Download conversation" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M5 15v5h14v-5"/></svg></button>
+          <button type="button" class="icon-button" id="new-chat" title="Start a new conversation" aria-label="Start a new conversation" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10a8 8 0 1 0-1 7M20 4v6h-6"/></svg></button>
+        </div>
+      </div>
+
+      <div class="conversation" id="conversation" role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversation with Olive"></div>
+      <div class="suggested-prompts" id="suggested-prompts" role="group" aria-label="Suggested questions"></div>
+      <div class="chat-error" id="chat-error" role="alert" hidden><span id="error-message"></span><button type="button" id="config-retry" hidden>Try again</button></div>
+
+      <form class="composer" id="chat-form">
+        <label class="sr-only" for="message">Your message to Olive</label>
+        <div class="composer-input"><textarea id="message" name="message" rows="1" maxlength="1200" placeholder="What can we help you with?" autocomplete="off" spellcheck="true" disabled></textarea><button class="send-button" id="send-button" type="submit" aria-label="Send message" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button></div>
+        <div class="composer-note"><span>Enter to send <span class="note-separator">·</span> Shift + Enter for a new line</span><span id="character-count">0 / 1200</span></div>
+      </form>
+      <div class="chat-footer"><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M8 2.5 13 5v4c0 3-5 5-5 5S3 12 3 9V5Z"/><path d="m5.5 8 1.7 1.7 3.5-3.4"/></svg>Thoughtful answers, grounded in our restaurant information.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="footer-brand">olive table</span><span class="footer-dot">·</span>A fictional restaurant. A real conversation.</p>
+    <details class="prototype-details"><summary>About this prototype <span aria-hidden="true">+</span></summary><div class="prototype-panel"><h2>Built for a better conversation</h2><p>This English-language NLP coursework prototype combines a locally trained intent classifier, restaurant information retrieval, and conversation state. No external AI service is used.</p><label for="answer-mode">Answer method</label><select id="answer-mode"><option value="enhanced">Enhanced — trained classifier and conversation context</option><option value="baseline">Baseline — word retrieval only</option></select><p class="mode-help">Changing method starts a new conversation. Match scores describe retrieval similarity or a dialogue rule; they are not probabilities that an answer is correct.</p><p>Your conversation is kept in this browser tab for convenience. Use the reset button to start fresh, or download a copy for your own notes.</p></div></details>
+  </footer>
+  <dialog id="dish-dialog" class="dish-dialog" aria-labelledby="dish-dialog-title"><div class="dish-dialog-inner"><form method="dialog"><button class="dialog-close icon-button" aria-label="Close dish details"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button></form><p class="eyebrow" id="dish-dialog-category"></p><div class="dish-dialog-heading"><h2 id="dish-dialog-title"></h2><span id="dish-dialog-price"></span></div><div id="dish-dialog-tags" class="dish-tags"></div><p id="dish-dialog-description" class="dish-dialog-description"></p><h3>From the kitchen</h3><p id="dish-dialog-ingredients"></p><div class="dish-dialog-allergens"><h3>Allergen information</h3><p id="dish-dialog-allergens"></p><p class="dialog-cross-contact">Please speak to restaurant staff about allergies and cross-contact. Dietary labels do not guarantee suitability.</p></div><button type="button" id="dish-dialog-ask" class="dialog-ask dish-ask">Ask Olive about this dish <span aria-hidden="true">↗</span></button></div></dialog>
+  <noscript><p class="noscript-message">Please enable JavaScript to use the chat and menu filters.</p></noscript>
+  <div class="sr-only" role="status" id="announcement"></div>
+</body>
+</html>

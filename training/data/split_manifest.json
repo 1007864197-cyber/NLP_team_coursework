@@ -1,0 +1,2667 @@
+{
+  "seed": 3242026,
+  "split_before_augmentation": true,
+  "source_sha256": "3b8c0a6e80faa975c9f4eda88210973cf76498e2b924b80d0e40fa332defffa6",
+  "families": [
+    {
+      "family_id": "accessibility_001",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is the restaurant wheelchair accessible?",
+      "base_text_sha256": "138356b881bcc1bd497d4e51e90766a102bca57562ba8899fad3951414b80bda"
+    },
+    {
+      "family_id": "accessibility_002",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Do you have step-free access?",
+      "base_text_sha256": "c1621697364477a72cede969e17eaedba0403dc7a91bb9a074af4905f62d53bf"
+    },
+    {
+      "family_id": "accessibility_003",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is there an accessible toilet?",
+      "base_text_sha256": "30499f681ad8245dc7e5ff11f5045a23f339e18877e9b89d8af9de9ed6165a44"
+    },
+    {
+      "family_id": "accessibility_004",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Can a wheelchair get through the entrance?",
+      "base_text_sha256": "f9c916ab8a0cc57213d619d32a8c27b6fe189da5aa9e7fcab62671335cb53802"
+    },
+    {
+      "family_id": "accessibility_005",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Are there steps to reach the dining room?",
+      "base_text_sha256": "e05e4b525f44ad33a0319cff32af5030a580a6c00f2af47e5b6c51f898987176"
+    },
+    {
+      "family_id": "accessibility_006",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Can you accommodate someone with limited mobility?",
+      "base_text_sha256": "e1bd197da96be9c4bc80a1aded79f9def2abd11a238227379b93c26aaafab161"
+    },
+    {
+      "family_id": "accessibility_007",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is the entrance suitable for a mobility scooter?",
+      "base_text_sha256": "0b762950717c6eaff123fb27157ecef7ba3ea64e511c1396e53916be7ef8fc35"
+    },
+    {
+      "family_id": "accessibility_008",
+      "intent": "accessibility",
+      "split": "development",
+      "base_text": "Do you have a ramp at the front door?",
+      "base_text_sha256": "0bbf674bdfc1f2aad5372c1adc21818b61be0cae848a60c7e0ea6a78223e9fcd"
+    },
+    {
+      "family_id": "accessibility_009",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Are the tables accessible to wheelchair users?",
+      "base_text_sha256": "3a00cebab794ac9aff160008605d204d2b0498b4326ebdeb09ae8db334bd3f4b"
+    },
+    {
+      "family_id": "accessibility_010",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is there a disabled restroom available?",
+      "base_text_sha256": "c900bc169be9c5c73f8a66e4658dc0c5262750b22a675a540bfeb7981c7dccbf"
+    },
+    {
+      "family_id": "accessibility_011",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Can a guest using a walking frame visit comfortably?",
+      "base_text_sha256": "1a4d7b990db584b5f92469c194666a8a2ccab1ab0f3fc0565f4664952487b22f"
+    },
+    {
+      "family_id": "accessibility_012",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is the dining area all on one level?",
+      "base_text_sha256": "872dbf663b12a97eab1be97b2f135e0f7b51bb1ef67827ec0988b077e85bd943"
+    },
+    {
+      "family_id": "accessibility_013",
+      "intent": "accessibility",
+      "split": "development",
+      "base_text": "How accessible is the restaurant building?",
+      "base_text_sha256": "9888ca1ac066633cf27961afe199108508310f6e47c9cf2d13470ba345e73127"
+    },
+    {
+      "family_id": "accessibility_014",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Can we arrange seating with extra wheelchair space?",
+      "base_text_sha256": "5c1a28de6b821674fda5fa9923daa511a1beff17de82fc7b7b82f7050a02a4c7"
+    },
+    {
+      "family_id": "accessibility_015",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Are there accessible facilities for guests?",
+      "base_text_sha256": "46a368df9a5a3a39149a0f0803f1dbe5560639fa1ec13cfb8c7998140aead511"
+    },
+    {
+      "family_id": "accessibility_016",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Would someone on crutches need to climb stairs?",
+      "base_text_sha256": "22c6072dc9b73ab043be53873ab544f5b54d8e6faa7d8c98526ba7965b48e44f"
+    },
+    {
+      "family_id": "accessibility_017",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "Is a lift required to enter the restaurant?",
+      "base_text_sha256": "18396446f065822e9afbbcb1b7191663f4dffe4f276c239c1486d75e05695821"
+    },
+    {
+      "family_id": "accessibility_018",
+      "intent": "accessibility",
+      "split": "train",
+      "base_text": "We need information about step-free entry.",
+      "base_text_sha256": "07bb0a1dda912bc6984c21a89911e44e72971db38bf2f68406d41ee1959172af"
+    },
+    {
+      "family_id": "accessibility_019",
+      "intent": "accessibility",
+      "split": "development",
+      "base_text": "Does your venue support guests with mobility needs?",
+      "base_text_sha256": "96a1fd03d301a360c05cd2900b7f24cddaa5a70821f05b8193e9e6711174d5af"
+    },
+    {
+      "family_id": "accessibility_020",
+      "intent": "accessibility",
+      "split": "development",
+      "base_text": "Could you describe the physical access arrangements?",
+      "base_text_sha256": "57c1db092b3e98817a535d0e2d1aefdca305492ff3e94ec3f4b6bd8dbcf57375"
+    },
+    {
+      "family_id": "allergens_001",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "I have a nut allergy. What should I do?",
+      "base_text_sha256": "98ba5fb16ae8be6cad4c6d4f792cbff0f45e37249a32acb210e8fae19ede9aa0"
+    },
+    {
+      "family_id": "allergens_002",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Can you provide allergen information?",
+      "base_text_sha256": "e3793260edbeada02fe66ab9a1b6b3ef07b64ece1ced8de6665d40e50e8de103"
+    },
+    {
+      "family_id": "allergens_003",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Are any dishes safe for a severe food allergy?",
+      "base_text_sha256": "4d294ab394ca58243aa6c64ea97e591199540c86e8076fcb21bdec9f35e86f84"
+    },
+    {
+      "family_id": "allergens_004",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "How do you prevent cross-contamination?",
+      "base_text_sha256": "f1e6d0b5da964d861278e62894140b6e6af4194436d8d262dedcba94932d4fe3"
+    },
+    {
+      "family_id": "allergens_005",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Do you keep a list of ingredients and allergens?",
+      "base_text_sha256": "72aed249510b31c3d9b01d7748b7d147abd90982532295c4267452f270f9cce1"
+    },
+    {
+      "family_id": "allergens_006",
+      "intent": "allergens",
+      "split": "development",
+      "base_text": "I am allergic to dairy products.",
+      "base_text_sha256": "3ffb0b853511622acd8d088516097222cee4072c0aa98516298e156f449fda18"
+    },
+    {
+      "family_id": "allergens_007",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Can the kitchen guarantee a peanut-free meal?",
+      "base_text_sha256": "e228d5f2986a26a7a67fb8f7309138f1ce07fb32c6d5f03ac370fa64af9d6ee4"
+    },
+    {
+      "family_id": "allergens_008",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "What should someone with coeliac disease know?",
+      "base_text_sha256": "1e47bbbab0320576abebfb2fcb13f67a05be533d7a14127e12baf06692874a5f"
+    },
+    {
+      "family_id": "allergens_009",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Do your dishes contain sesame?",
+      "base_text_sha256": "c50393acf5767baa3625cf56e98c57428d4bd125870d540288e5de2056dcb398"
+    },
+    {
+      "family_id": "allergens_010",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Is shellfish handled in the same kitchen?",
+      "base_text_sha256": "039f1457c9667c3e608bf4a7ce416b6a02229a18063a51fff826e7d7697df856"
+    },
+    {
+      "family_id": "allergens_011",
+      "intent": "allergens",
+      "split": "development",
+      "base_text": "Should I tell staff about a food allergy?",
+      "base_text_sha256": "8d70a68d9a34376d7af74ee86559501ddd6e20fa6fc651810a7e1ac5cf3db414"
+    },
+    {
+      "family_id": "allergens_012",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Can you check which dishes contain eggs?",
+      "base_text_sha256": "9801e47b09cb97dbf45018f396502b0e307bdef7b926d9f862a1f2f5ba6ba404"
+    },
+    {
+      "family_id": "allergens_013",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "I need information about gluten contamination.",
+      "base_text_sha256": "946068bc4065589fb5956a9348f78539764931d232a017949b8b4c4bfa3feffb"
+    },
+    {
+      "family_id": "allergens_014",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Do you use nuts in the kitchen?",
+      "base_text_sha256": "5bd6e1fe6dabca33d528628011d762738f498d0869307b5a7131c134eec05495"
+    },
+    {
+      "family_id": "allergens_015",
+      "intent": "allergens",
+      "split": "development",
+      "base_text": "How do you handle dietary allergies?",
+      "base_text_sha256": "3a38889b5ab89f8752842b8cc2778dac4475daa502aa7f30e52374d2de987149"
+    },
+    {
+      "family_id": "allergens_016",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Is the allergen list available before ordering?",
+      "base_text_sha256": "2deeefd8d646166280dd1e4bb3006f56be5db4666debc344570cbb53688aa999"
+    },
+    {
+      "family_id": "allergens_017",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Could there be traces of milk in a dish?",
+      "base_text_sha256": "7c68041a251c4f98f6575cac0da7cba299aa7153bbf04b42ac1a9a12afcbd4e8"
+    },
+    {
+      "family_id": "allergens_018",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "I have a serious allergy to fish.",
+      "base_text_sha256": "65c3fef1d70d3592545fd4aee7e0c61858efcf51d06db6b2eb079cb104a3610a"
+    },
+    {
+      "family_id": "allergens_019",
+      "intent": "allergens",
+      "split": "train",
+      "base_text": "Are allergy requests checked by the restaurant staff?",
+      "base_text_sha256": "16117a938bf060b681c911a7e0cba6cecec2ab1d99df0fcc498cae8c107624bb"
+    },
+    {
+      "family_id": "allergens_020",
+      "intent": "allergens",
+      "split": "development",
+      "base_text": "Please explain your food allergy precautions.",
+      "base_text_sha256": "deb90f9ab84086bbecdd7128ef8cf3edcda2367a9c9e800ba8e6edce5c7b7e32"
+    },
+    {
+      "family_id": "cancellation_001",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "How can I cancel my table booking?",
+      "base_text_sha256": "709c094182fed62e171488de68e1546bede8dea7c1b9c9700511f652028ec0fa"
+    },
+    {
+      "family_id": "cancellation_002",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Can I change an existing reservation?",
+      "base_text_sha256": "9c09bc48183153acf41af91d367bdd4d7c8beec67bb82f4ba0d9068172af790e"
+    },
+    {
+      "family_id": "cancellation_003",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "What is your cancellation policy?",
+      "base_text_sha256": "5edf8a0d4e26c1b02eef7965d93a60e11e579f98ecefd15e460f0fd5262c9830"
+    },
+    {
+      "family_id": "cancellation_004",
+      "intent": "cancellation",
+      "split": "development",
+      "base_text": "We need to move our booking to another day.",
+      "base_text_sha256": "cd62da219cd68117f6876e07106c13090f0ecec6e7428ca6610481d870dff5d2"
+    },
+    {
+      "family_id": "cancellation_005",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Who do I contact to cancel dinner?",
+      "base_text_sha256": "9f78cf80df69bdea83f4201c206e86bc65581d42440d7fd99573a3b081836d98"
+    },
+    {
+      "family_id": "cancellation_006",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Can I amend the number of guests booked?",
+      "base_text_sha256": "cbcacee24f7c43c834ceccd0cc94e8d6c1b6c6fdaf3d153284a8296155cae624"
+    },
+    {
+      "family_id": "cancellation_007",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Is there a charge for cancelling a table?",
+      "base_text_sha256": "8e64ca430ed50433d7d14f7b40c4a71b8f52065e677ef3c698124b1ab6577184"
+    },
+    {
+      "family_id": "cancellation_008",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "How much notice do you need for a cancellation?",
+      "base_text_sha256": "5b1566f69620876a10351b74a74add3ec13390958f70aee701eb90c91a51b648"
+    },
+    {
+      "family_id": "cancellation_009",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "I cannot attend my reserved table tonight.",
+      "base_text_sha256": "78f0c40df3d73cc0df64796d7445397f1ce2672d39c25184e6309b6bc8e364ed"
+    },
+    {
+      "family_id": "cancellation_010",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Can I reschedule my restaurant reservation?",
+      "base_text_sha256": "ddb207a74580298773db80f1db76a190d5b17e0135b99f0569f97333675aa34e"
+    },
+    {
+      "family_id": "cancellation_011",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "What happens if we do not show up?",
+      "base_text_sha256": "33058edceef24389e3819ecba11f48449ca24f1aff7e6f3b1f99ec1ab0494a00"
+    },
+    {
+      "family_id": "cancellation_012",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "I want to update an existing table booking.",
+      "base_text_sha256": "16c4ab05f90a5cb91a1f78afcbd6d41c6b5b6515d6f45f883ff7da052d179126"
+    },
+    {
+      "family_id": "cancellation_013",
+      "intent": "cancellation",
+      "split": "development",
+      "base_text": "May we postpone our dinner reservation?",
+      "base_text_sha256": "6207257982677009425a0ac1c4e705b820a9c63de78f1c247dee559e2ac4ec6b"
+    },
+    {
+      "family_id": "cancellation_014",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "How do I tell you we are no longer coming?",
+      "base_text_sha256": "39f3ac546a7a99570d48e4c3c05408b20898be1c2b1b7b40e71e735f7a6e85a0"
+    },
+    {
+      "family_id": "cancellation_015",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Can a booking time be changed?",
+      "base_text_sha256": "da9646cccbafb358c59c2eeb8d2a3fd4557129fd9709d39206c397f062eafa54"
+    },
+    {
+      "family_id": "cancellation_016",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Do you have a no-show policy?",
+      "base_text_sha256": "c2d861cdad34a58d67ea6ea68cf318bba54e518ad37b22907d3d03f2708244ca"
+    },
+    {
+      "family_id": "cancellation_017",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Our plans changed and we must cancel lunch.",
+      "base_text_sha256": "9db27831304f2cc8f96380ad934bfe7c82a8f5d1e02d8840ddd314bab0da2239"
+    },
+    {
+      "family_id": "cancellation_018",
+      "intent": "cancellation",
+      "split": "development",
+      "base_text": "Can I reduce the size of my reservation?",
+      "base_text_sha256": "054bf86d960d861025172ec26219428cc58bcd72658e12aac10a454c77379eaf"
+    },
+    {
+      "family_id": "cancellation_019",
+      "intent": "cancellation",
+      "split": "development",
+      "base_text": "Will I lose a deposit if I cancel?",
+      "base_text_sha256": "c2e0810d98bf376f472c202fca3ec937cca904e345daf6f7824423332cdd687e"
+    },
+    {
+      "family_id": "cancellation_020",
+      "intent": "cancellation",
+      "split": "train",
+      "base_text": "Please help me alter my table reservation.",
+      "base_text_sha256": "98b83a1565bd48b8cc97fca1d7064f3adcb907ea542fafd2ac991ab34fed1b6d"
+    },
+    {
+      "family_id": "children_001",
+      "intent": "children",
+      "split": "development",
+      "base_text": "Are children welcome at your restaurant?",
+      "base_text_sha256": "39e2c9888ca0ca3b6bdcfda3be7d0b31294d6b912e18926cbc1dda356df8405f"
+    },
+    {
+      "family_id": "children_002",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Do you have high chairs?",
+      "base_text_sha256": "f9568d3ab7b4a8a4112596b9392f1e65aef62e5149ad4dd29f92f1a758ba4b35"
+    },
+    {
+      "family_id": "children_003",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Is there a children's menu?",
+      "base_text_sha256": "f0a3664d7893017653fdfb856aacbe04a708220987392dbc2e4f324bb59d47eb"
+    },
+    {
+      "family_id": "children_004",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Can we bring our toddler to dinner?",
+      "base_text_sha256": "1a097a5de02dfd97ab2f78ee81615a5cdfc5bedfc8361ded54e05968427311be"
+    },
+    {
+      "family_id": "children_005",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Is Olive Table family friendly?",
+      "base_text_sha256": "d0fd9d63dc78cb1f71634df6ebba314809445210a4adc13dae60c5c20be6dd7a"
+    },
+    {
+      "family_id": "children_006",
+      "intent": "children",
+      "split": "development",
+      "base_text": "Do you serve smaller portions for kids?",
+      "base_text_sha256": "1cf7e53a3f0399006c963fb07de83ab753582243244f7d08f73dbcae69935cfa"
+    },
+    {
+      "family_id": "children_007",
+      "intent": "children",
+      "split": "development",
+      "base_text": "Is there space for a pushchair?",
+      "base_text_sha256": "5d424bbe82fb49989ee3857b24babe95bdbb2d23dd8017fa46c8d90afadb1b99"
+    },
+    {
+      "family_id": "children_008",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Can a baby come with our group?",
+      "base_text_sha256": "346cb952a9d16b0984bd27d605158ef85de9b884e25367235cdb7a02eb95d308"
+    },
+    {
+      "family_id": "children_009",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Are booster seats available?",
+      "base_text_sha256": "e671b1941b6a9130e22bb4ab5f720a2903252db2c6f02f4d0385d9c7e102caa3"
+    },
+    {
+      "family_id": "children_010",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Do you cater for young children?",
+      "base_text_sha256": "82fa2cd9af301574956ebf05c1dbd0d068bdf3d4c233e9a0ee8f77bf7155fdca"
+    },
+    {
+      "family_id": "children_011",
+      "intent": "children",
+      "split": "train",
+      "base_text": "We are visiting with two small kids.",
+      "base_text_sha256": "f1188a66ab8b722e432d177a2276179ef9696dbb7dfbbc3c2e2799575181471b"
+    },
+    {
+      "family_id": "children_012",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Does the restaurant welcome families?",
+      "base_text_sha256": "4baab0f33af2f892e93368d6e625a83babbb0d29aa47ea2bbe229f571bc80b02"
+    },
+    {
+      "family_id": "children_013",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Can you provide a highchair for lunch?",
+      "base_text_sha256": "d265d34af60853e82c077b8f2081a4c51f238adf2d63a74f515bfbec78ac80cb"
+    },
+    {
+      "family_id": "children_014",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Are there dishes suitable for little ones?",
+      "base_text_sha256": "40c3a937d3ee4e7e96b0503558e281dcc68bf85de17f679a76df6ff7664b99c1"
+    },
+    {
+      "family_id": "children_015",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Is there an age restriction for diners?",
+      "base_text_sha256": "2819e39c79cd2dbb59da91ca13b558bd6b26a27754e44f80f6b6d89990a61651"
+    },
+    {
+      "family_id": "children_016",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Will we be able to bring a pram inside?",
+      "base_text_sha256": "e570a58cf8a4ab1715fcfe64bb90b5a58172f3d746d774eba67bea8eaeb17ebb"
+    },
+    {
+      "family_id": "children_017",
+      "intent": "children",
+      "split": "train",
+      "base_text": "What facilities do you offer for babies?",
+      "base_text_sha256": "4c22ac5576e6ea58ef0923cd229de99f869bac1d6eca9bee0b08b81d2c2de135"
+    },
+    {
+      "family_id": "children_018",
+      "intent": "children",
+      "split": "development",
+      "base_text": "Can our child eat from a kids menu?",
+      "base_text_sha256": "a1e5217613a1dc0af3d584f4fface9b5ab897e737afd568fb09cd2d800606ca5"
+    },
+    {
+      "family_id": "children_019",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Is the dining room suitable for a family meal?",
+      "base_text_sha256": "830314ebdf9bdf9fe706567af0a2b11348cd9af30d096161eefeb09147694aa6"
+    },
+    {
+      "family_id": "children_020",
+      "intent": "children",
+      "split": "train",
+      "base_text": "Please tell me your policy on children.",
+      "base_text_sha256": "24a08010d304abeb0a325aca8279046c75fe6fea0fca0ef170d2793149e26117"
+    },
+    {
+      "family_id": "delivery_001",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Do you deliver food to homes?",
+      "base_text_sha256": "c8a18977c07e02930fb2ffdb4de8565e60e1bc82375c596d72baa2b15959262b"
+    },
+    {
+      "family_id": "delivery_002",
+      "intent": "delivery",
+      "split": "development",
+      "base_text": "Can you bring dinner to my address?",
+      "base_text_sha256": "db729f190b8b313ae366727a72251f981028a30c2f8e871f7b8a147c6e494040"
+    },
+    {
+      "family_id": "delivery_003",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Is home delivery available?",
+      "base_text_sha256": "dddd715395f5ef2e1abe0f33b657a14e45ecb21c4f6039d9ab070c0ee1139fdc"
+    },
+    {
+      "family_id": "delivery_004",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Which delivery services do you use?",
+      "base_text_sha256": "81f7e3eac6deb208178b60e516aa829e89e89a26f6c4593751be591710ab92d1"
+    },
+    {
+      "family_id": "delivery_005",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "How far does your delivery area extend?",
+      "base_text_sha256": "8cd11ea88e2e5a08820b82aed1ee7b2a245c16e1a0591d4b618a5aa764b3ecc2"
+    },
+    {
+      "family_id": "delivery_006",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Can a courier deliver my meal?",
+      "base_text_sha256": "5b7dfe2ed7b9f5894fe87d6c6079083bbc3215387115e4ad18ea04d94223006c"
+    },
+    {
+      "family_id": "delivery_007",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Do you send orders out to customers?",
+      "base_text_sha256": "44a144a5c93e38adb470f7fba18badc140b44b55d0346bbfe74e59cebbf72f23"
+    },
+    {
+      "family_id": "delivery_008",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "I would like food delivered to my flat.",
+      "base_text_sha256": "31f0df6e1986a1bb2d8e6c40fe72ebda736742e669704683eded617e456c5a48"
+    },
+    {
+      "family_id": "delivery_009",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "How much is the delivery fee?",
+      "base_text_sha256": "dd786b0dc29c84a5cb83285e7a71f4d4abd8d58ada70319418822a781c4b48d2"
+    },
+    {
+      "family_id": "delivery_010",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Can we order dinner without leaving home?",
+      "base_text_sha256": "e3da1690ee58626b325da86ed899742f19f67a3c662ad39c6c31f8462ddf0d0d"
+    },
+    {
+      "family_id": "delivery_011",
+      "intent": "delivery",
+      "split": "development",
+      "base_text": "Is there a minimum spend for delivery?",
+      "base_text_sha256": "2fd1b9c765e4be57e09c4713d54c92e3f5ec0bfc011dad021ac2cabb8d40f31c"
+    },
+    {
+      "family_id": "delivery_012",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "What is the estimated delivery time?",
+      "base_text_sha256": "0d35979d6b54167554215e47c850949330e0ee7589edd6574918dcb4ad1b2502"
+    },
+    {
+      "family_id": "delivery_013",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Are you on any food delivery apps?",
+      "base_text_sha256": "dd1ffa70291c63b7a88d830e6c37da7e9e926918874e544196ff09be64205400"
+    },
+    {
+      "family_id": "delivery_014",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Would you deliver lunch to our office?",
+      "base_text_sha256": "354abf99591f31591be18fa9af082d020b91b87aa1eda4c98f16febfc0633513"
+    },
+    {
+      "family_id": "delivery_015",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Does your restaurant have a delivery option?",
+      "base_text_sha256": "970017b2076e607335962ab5a982b5964dfb26c63d52da6f9e4cb00d2040d338"
+    },
+    {
+      "family_id": "delivery_016",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Can I have a meal sent to my hotel?",
+      "base_text_sha256": "ea6ba65b296a444de8bf6bc9512470af240d9d74941c8e8b6c6621c802872f59"
+    },
+    {
+      "family_id": "delivery_017",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "Do drivers bring your food to nearby streets?",
+      "base_text_sha256": "847ba3c6164f6600e718952cd364032092a57335eb466df459468a695da3a0b6"
+    },
+    {
+      "family_id": "delivery_018",
+      "intent": "delivery",
+      "split": "train",
+      "base_text": "How do I request a doorstep delivery?",
+      "base_text_sha256": "6973d6681cfff21e68ed1923fab7541b51800647a582825b0646a4c70d10910a"
+    },
+    {
+      "family_id": "delivery_019",
+      "intent": "delivery",
+      "split": "development",
+      "base_text": "Are deliveries offered in the evening?",
+      "base_text_sha256": "42416ffb117401163224af3f07e3412a64568f4f7db62f37dbbe00b63fc6a8f7"
+    },
+    {
+      "family_id": "delivery_020",
+      "intent": "delivery",
+      "split": "development",
+      "base_text": "Please explain your home delivery policy.",
+      "base_text_sha256": "43aec3e236d03b18154d4d96174a88e8c22a864f4d9557af6c6ef7e97f9e70dc"
+    },
+    {
+      "family_id": "fallback_001",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "What is the weather forecast for tomorrow?",
+      "base_text_sha256": "34dd70edcfeb04ea117e3a800eb5953023c924e59c53c1c4fee48148b94876f5"
+    },
+    {
+      "family_id": "fallback_002",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Can you write a computer program for me?",
+      "base_text_sha256": "d452d11147363ed4abf951e4cb04a05cdae886d72df514742f2629f4c1c4a924"
+    },
+    {
+      "family_id": "fallback_003",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Explain how a car engine works.",
+      "base_text_sha256": "a58454d88e9b58ec9c15fea6fcac0073c7bfe0a00df7db43d1f719bae67aedbf"
+    },
+    {
+      "family_id": "fallback_004",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Who won the football match?",
+      "base_text_sha256": "7c633fd70bc41271e99adbbd725d1b6152f6c8f06fc40ecdbf05bdfbcbfc5f8e"
+    },
+    {
+      "family_id": "fallback_005",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "What is the capital of Argentina?",
+      "base_text_sha256": "c688d224049a581ab2d1102deff46247bf507a70b0ab979393fc2cec4736455b"
+    },
+    {
+      "family_id": "fallback_006",
+      "intent": "fallback",
+      "split": "development",
+      "base_text": "Help me solve my mathematics homework.",
+      "base_text_sha256": "88535015c2abc70f441401066726196628caf55403305dc73b11852f0ccd9999"
+    },
+    {
+      "family_id": "fallback_007",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Recommend a laptop to buy.",
+      "base_text_sha256": "0bfee77931b9b966c2a3e800e7107306c7da568040a1722fd8c405dda2567ad9"
+    },
+    {
+      "family_id": "fallback_008",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Tell me about the history of ancient Rome.",
+      "base_text_sha256": "a9e2033a38ed259a56b0c37d83fca4ecff8d9138137173d1b83e72a7d4b7e5a3"
+    },
+    {
+      "family_id": "fallback_009",
+      "intent": "fallback",
+      "split": "development",
+      "base_text": "Can you book an airline ticket?",
+      "base_text_sha256": "7879f060e3014c04bdddd9b1caa215ace1132f18c04be9cf4d94558c932b35a2"
+    },
+    {
+      "family_id": "fallback_010",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "What is the current exchange rate?",
+      "base_text_sha256": "95dae1447a0c8a178767b5e77739149f7365e17f0a9447eb7b78c09114ec7ff4"
+    },
+    {
+      "family_id": "fallback_011",
+      "intent": "fallback",
+      "split": "development",
+      "base_text": "How do I fix my washing machine?",
+      "base_text_sha256": "15efa89f6ecf6ee78bb37f0a090e8312152777357742bb862091c3398f4c009b"
+    },
+    {
+      "family_id": "fallback_012",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Write a poem about the moon.",
+      "base_text_sha256": "1b7dfc3eb40f836105c907f337871dd829b8f1060d6e33e181b82e1ed192858e"
+    },
+    {
+      "family_id": "fallback_013",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Which shares should I invest in?",
+      "base_text_sha256": "958460aaf8829a6aa24461596cf5ca9aba4d82565a3ad8b85b434da07285ee7d"
+    },
+    {
+      "family_id": "fallback_014",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "I need advice about a legal contract.",
+      "base_text_sha256": "559324a15fc7059af23f0872fa59f5db66a517d41b1e0b8684c5baf1d343d2af"
+    },
+    {
+      "family_id": "fallback_015",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "How many planets are in the solar system?",
+      "base_text_sha256": "c7b46357302e86139258c74a66dc6ba36a3ccd5d6ae6e6c8eb91b29538601a39"
+    },
+    {
+      "family_id": "fallback_016",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Can you translate a paragraph into German?",
+      "base_text_sha256": "0ee5b28a1f03578ebb44f76042bb2433c40f18c3d9e0c5ceb32d5c71f66972df"
+    },
+    {
+      "family_id": "fallback_017",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Tell me the latest political news.",
+      "base_text_sha256": "1106e861d87b44ccfc3ab27a222e001c9da32d44b52036598cb7646ceb21df9f"
+    },
+    {
+      "family_id": "fallback_018",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "What is a good exercise routine?",
+      "base_text_sha256": "632d32f38fa5baf6e29d9b68ac5890266414b319b69b1ac5af2d56b98dae1f84"
+    },
+    {
+      "family_id": "fallback_019",
+      "intent": "fallback",
+      "split": "train",
+      "base_text": "Find a hotel for my holiday.",
+      "base_text_sha256": "c1186208c4ad092750f2b0441d20edcf651cd75e89ba51f994cb13ee65ef8665"
+    },
+    {
+      "family_id": "fallback_020",
+      "intent": "fallback",
+      "split": "development",
+      "base_text": "How do I install a printer?",
+      "base_text_sha256": "5cefaf4ac32ce246d781f29aa2aa85d75e023aaca62ae1b60298424f104d3d9c"
+    },
+    {
+      "family_id": "goodbye_001",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Goodbye",
+      "base_text_sha256": "c015ad6ddaf8bb50689d2d7cbf1539dff6dd84473582a08ed1d15d841f4254f4"
+    },
+    {
+      "family_id": "goodbye_002",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Bye for now",
+      "base_text_sha256": "5c6b9e7f65b1def329a64828b413dfb5d4c86acc871c604c8cfd74ea594d76ed"
+    },
+    {
+      "family_id": "goodbye_003",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "See you later",
+      "base_text_sha256": "17d1e2686fb5aa92ef68574cf7a40e8cb9a813b6b38a3b76182a2e1653f9ff99"
+    },
+    {
+      "family_id": "goodbye_004",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Have a lovely day",
+      "base_text_sha256": "9bb5191c5c290019f906996fc55c7dfec55172dcca469405b5bd3729c4e016d3"
+    },
+    {
+      "family_id": "goodbye_005",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "That is all from me, bye",
+      "base_text_sha256": "9ca36066ffac2ddd1234cab1838d82bbbc7055305fc1976804a3341378cb7d04"
+    },
+    {
+      "family_id": "goodbye_006",
+      "intent": "goodbye",
+      "split": "development",
+      "base_text": "I am leaving the chat now",
+      "base_text_sha256": "92bbcd078aa421d3435c1303be46ac89e3ca5e5a12bfa5782af717aa0c8a02d9"
+    },
+    {
+      "family_id": "goodbye_007",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Take care Olive",
+      "base_text_sha256": "49f3aae4aca7cf29bc8cfc216bd74f7472b465a6c9ebcdbaa45e71fd661e60e0"
+    },
+    {
+      "family_id": "goodbye_008",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "See you at the restaurant",
+      "base_text_sha256": "f25ff960ca6369c10b476ad0f7708a536519f90d2b5aa334ce835b437c408865"
+    },
+    {
+      "family_id": "goodbye_009",
+      "intent": "goodbye",
+      "split": "development",
+      "base_text": "Bye, have a good evening",
+      "base_text_sha256": "faa6affcc98a299a6355a7c8f42130159f37f50370cd0be2b00e7bd0bf1e5d0b"
+    },
+    {
+      "family_id": "goodbye_010",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Talk to you another time",
+      "base_text_sha256": "0eda7ab105a688eea74b80cfc5d4c474e2c26b71f3549855a64d716592328935"
+    },
+    {
+      "family_id": "goodbye_011",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "I will say goodbye now",
+      "base_text_sha256": "4a35541909279b4d11d3ec556320c5ccb6cfc9ca6808179809f08503fa4c6616"
+    },
+    {
+      "family_id": "goodbye_012",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Until next time",
+      "base_text_sha256": "a7e87ceb5b38d695130d44dd442c70c560808e117c472d3e95c7e9fc08ae5044"
+    },
+    {
+      "family_id": "goodbye_013",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Have a nice afternoon",
+      "base_text_sha256": "fc419f29a5b4d0e8d68fb9d6c788c3c77c3fa4d01ae0843f9cf12faeab1285c5"
+    },
+    {
+      "family_id": "goodbye_014",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "See you soon",
+      "base_text_sha256": "bb94bf0ce895e7019c596a9cf7e0c4cd28e5d7caa8b59967305ba10f18498306"
+    },
+    {
+      "family_id": "goodbye_015",
+      "intent": "goodbye",
+      "split": "development",
+      "base_text": "I am done for today, goodbye",
+      "base_text_sha256": "c2bdf694b2c938e74301aae47ff6902cf98727871d1e41c9eeffff7bff88b866"
+    },
+    {
+      "family_id": "goodbye_016",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Enjoy the rest of your day",
+      "base_text_sha256": "706943a7bb5bd11bc292701ca986f0e0a627caf5da4d3e8e39b17352d57f7056"
+    },
+    {
+      "family_id": "goodbye_017",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Farewell",
+      "base_text_sha256": "438a61d455f73aedb872035b0f9870aad8bf859256523847dc2c89eda1ff9b2d"
+    },
+    {
+      "family_id": "goodbye_018",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Catch you later",
+      "base_text_sha256": "2a799300d0e8f8b10beea22ec2d2f8076acdc8399c5c4b5d95c99b1cbec47502"
+    },
+    {
+      "family_id": "goodbye_019",
+      "intent": "goodbye",
+      "split": "train",
+      "base_text": "Bye Olive",
+      "base_text_sha256": "2c1103028a3048fc976896a411b293f3fe82ffabedaf9c52999f920cb7b8a147"
+    },
+    {
+      "family_id": "goodbye_020",
+      "intent": "goodbye",
+      "split": "development",
+      "base_text": "That is everything, see you",
+      "base_text_sha256": "10ef45f3190cf4636377375271036e8d47f101df16f9d050c2c0a3615e2156c3"
+    },
+    {
+      "family_id": "greeting_001",
+      "intent": "greeting",
+      "split": "development",
+      "base_text": "Hello",
+      "base_text_sha256": "185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969"
+    },
+    {
+      "family_id": "greeting_002",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hi there",
+      "base_text_sha256": "8328c36d18b7834a38118f6ec924ae143c10263f2519c723ccb36ca14e7461fb"
+    },
+    {
+      "family_id": "greeting_003",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Good morning",
+      "base_text_sha256": "90a90a48e23dcc51ad4a821a301e3440ffeb5e986bd69d7bf347a2ba2da23bd3"
+    },
+    {
+      "family_id": "greeting_004",
+      "intent": "greeting",
+      "split": "development",
+      "base_text": "Good afternoon",
+      "base_text_sha256": "d325e1bbfd1c5681d165e3b8d709469492c1b4ee8a5086da24ca56d79b72d379"
+    },
+    {
+      "family_id": "greeting_005",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Good evening",
+      "base_text_sha256": "15a421e4cf7651fe408f10eb19d401b65dd0e9ae7a60c50d126500c5902d37d7"
+    },
+    {
+      "family_id": "greeting_006",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hey Olive",
+      "base_text_sha256": "4eeaa661793c33f123db0b1445a709269ecc5ccd60c741f1bb6bfdcc60df0f73"
+    },
+    {
+      "family_id": "greeting_007",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hello, nice to meet you",
+      "base_text_sha256": "31f379864d55f9b295b9bd6f4e69fd47ace09ddeea477f0cc802c8bd896c27e9"
+    },
+    {
+      "family_id": "greeting_008",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hi, how are you?",
+      "base_text_sha256": "b54e9cae52b7cb12d621e0f388fc72cd3a3bf70cc721e5934f52fa8d2b78d3ec"
+    },
+    {
+      "family_id": "greeting_009",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Greetings",
+      "base_text_sha256": "9eabb1416f00748823432e5316426992b80c61162e30a1b44c8e01247054c90c"
+    },
+    {
+      "family_id": "greeting_010",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hello to the restaurant team",
+      "base_text_sha256": "41bfbfb8cdd842aa2998de9d691a043f496bea0e82d86fdeacde54578dd39bce"
+    },
+    {
+      "family_id": "greeting_011",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hey there, are you around?",
+      "base_text_sha256": "898b13f4d7f85dc14eae44f4dcafea6f07d4835da4c9734997a64cbad654284b"
+    },
+    {
+      "family_id": "greeting_012",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hi Olive Table",
+      "base_text_sha256": "b351ca9fc74e7fae3b757c73efe922f3e3e0de48da6c4ac419de28ecd2a52e8c"
+    },
+    {
+      "family_id": "greeting_013",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "A very good evening to you",
+      "base_text_sha256": "fb7377f17b10246f87ed9ae8002cb3025bc07a2c0a3110d8b1204e38fad358f7"
+    },
+    {
+      "family_id": "greeting_014",
+      "intent": "greeting",
+      "split": "development",
+      "base_text": "Hello, is anyone there?",
+      "base_text_sha256": "ff6315a2a1e5c21cc27d4bc1e129262d288f720a6b8e03d5f43acb4ba4193290"
+    },
+    {
+      "family_id": "greeting_015",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hi, I am new here",
+      "base_text_sha256": "ba12d61ea2aa25aef4f2fb10f5cd3d26aed1b69af89c9b9ae64d44aafcdd73b7"
+    },
+    {
+      "family_id": "greeting_016",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Nice to meet you Olive",
+      "base_text_sha256": "481007e18dd3ce384e21b56dc6f76db0cf3c8b2f0f599cd3e4d026414bb5ff0f"
+    },
+    {
+      "family_id": "greeting_017",
+      "intent": "greeting",
+      "split": "development",
+      "base_text": "Hello again",
+      "base_text_sha256": "c45705cb99bf37cc8741849696c3da3d33c0c3fb5ca78887dbdbe9001b03e627"
+    },
+    {
+      "family_id": "greeting_018",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hey, how is your day going?",
+      "base_text_sha256": "affbbbd2f3e7756bb68703a8d4ba27e63fbd8e589494a0383f4f4cf6130ae052"
+    },
+    {
+      "family_id": "greeting_019",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Good day",
+      "base_text_sha256": "368c062b4f03c1f469b2015740f0fa91622454a042cc552fac3f1a458d9c4dc7"
+    },
+    {
+      "family_id": "greeting_020",
+      "intent": "greeting",
+      "split": "train",
+      "base_text": "Hi everyone",
+      "base_text_sha256": "9826296ea6a2b965ae7c264d4d531791da82432f83267bdd839e69b6b23862e1"
+    },
+    {
+      "family_id": "hours_001",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "What time does the restaurant open?",
+      "base_text_sha256": "8ca4f482b9c672aeb753ff5ea792b1a35a9351f659c72029c885427049ba5e8a"
+    },
+    {
+      "family_id": "hours_002",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "When do you close in the evening?",
+      "base_text_sha256": "7c3a281cf8e8f795d6a8f063699ba9432a17fc82b28ab2792f5a5df53f23c2be"
+    },
+    {
+      "family_id": "hours_003",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Can you tell me your opening hours?",
+      "base_text_sha256": "ed8fc7e7b21ae6fb9569ab611a18a8b032b3f50e65049ffea9f5db2ac53edf42"
+    },
+    {
+      "family_id": "hours_004",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Are you open for lunch on Mondays?",
+      "base_text_sha256": "4de57d001a44e88d62ae13b3981d2c387c580986299ffb10e92beefb17f3e0a9"
+    },
+    {
+      "family_id": "hours_005",
+      "intent": "hours",
+      "split": "development",
+      "base_text": "Until what time is the kitchen serving dinner?",
+      "base_text_sha256": "0d7edffae7e1d84c2bd0e9f91800a0c7f8903de6f4163f8020b76f1504bc98d2"
+    },
+    {
+      "family_id": "hours_006",
+      "intent": "hours",
+      "split": "development",
+      "base_text": "What are the opening times at weekends?",
+      "base_text_sha256": "5fd19ab58cebf73d0e1b26991f4a81d05eed1a22d28202beb9c3107e836904d7"
+    },
+    {
+      "family_id": "hours_007",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Is the restaurant open on Sunday?",
+      "base_text_sha256": "791943ddb382dbf005bbde5d215e77b4042ed3de4e03cfaa29d916e9fdee7e7a"
+    },
+    {
+      "family_id": "hours_008",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "What is your weekly opening schedule?",
+      "base_text_sha256": "69ae0986ccebfcb8b83d7890e56c8ecbfddee43f893704c911ef4f10e9b0825d"
+    },
+    {
+      "family_id": "hours_009",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "When does dinner service begin?",
+      "base_text_sha256": "e87517a4cbd0cff3f0e70d5c365619af8307bd69098171d3b78a732a67c83815"
+    },
+    {
+      "family_id": "hours_010",
+      "intent": "hours",
+      "split": "development",
+      "base_text": "How late can we come in for a meal?",
+      "base_text_sha256": "c89176cbac8d001b805893c68d7ae14787ce713b6fba131901f150a1c6cd9714"
+    },
+    {
+      "family_id": "hours_011",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Do you serve food in the afternoon?",
+      "base_text_sha256": "1b3d785c8bf2fa3ac0ab485fb6f4aae7d84225c58860a61a0a8b966756a3df4b"
+    },
+    {
+      "family_id": "hours_012",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "At what hour do the doors open?",
+      "base_text_sha256": "1f7753aa69fc630f0806ebc78c5fb5e208a85b3c36e5f5ac28e7e870f1c3e89a"
+    },
+    {
+      "family_id": "hours_013",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Are your Friday hours different?",
+      "base_text_sha256": "6a8ea35d1b306c40f13457eb472bd71007a1615712943dcdb61e3fdedb205a41"
+    },
+    {
+      "family_id": "hours_014",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Which days of the week are you closed?",
+      "base_text_sha256": "5f73b19a7a1aaf7056b694343a318b02eccd36d478165ad707a55409f540ddd5"
+    },
+    {
+      "family_id": "hours_015",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "When is the last food order taken?",
+      "base_text_sha256": "54d67a297232d01a23d686f4ea6e0a742418c806e2323cf31dd9f5032c7a79c7"
+    },
+    {
+      "family_id": "hours_016",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Is Tuesday an opening day?",
+      "base_text_sha256": "c06ec2c77ceb1fb3c95ed819e99f2834744f58446944a98407399739512e4ee3"
+    },
+    {
+      "family_id": "hours_017",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Are you serving meals at noon?",
+      "base_text_sha256": "c0463df37201aedbc0b1054bee9a6c4107f79ceb5dc0f457581bc9b7b64654d6"
+    },
+    {
+      "family_id": "hours_018",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "I would like to know the business hours.",
+      "base_text_sha256": "4427c2d065fbaf05769b619a6cedb6103648fe8fccc295f5c5959516954014f1"
+    },
+    {
+      "family_id": "hours_019",
+      "intent": "hours",
+      "split": "development",
+      "base_text": "Could we visit after nine in the evening?",
+      "base_text_sha256": "c689ad86597aa95ab214c38b819e8828633a775893e78b03472d5adfc40dd97f"
+    },
+    {
+      "family_id": "hours_020",
+      "intent": "hours",
+      "split": "train",
+      "base_text": "Tell me the times for lunch and dinner.",
+      "base_text_sha256": "b30ac461e73113525416066539fcea086823d2864a20a215a47f21fc9ca2924c"
+    },
+    {
+      "family_id": "location_001",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Where is your restaurant located?",
+      "base_text_sha256": "bbe85437e46a30931383c5d4f8d7fd65c6913ac87475fffed44f7ec6efa0e453"
+    },
+    {
+      "family_id": "location_002",
+      "intent": "location",
+      "split": "train",
+      "base_text": "What is the street address?",
+      "base_text_sha256": "3ff708d131e79f4c2d66dc781a779dc0e91d133511cfd02f2a16b367212d95b7"
+    },
+    {
+      "family_id": "location_003",
+      "intent": "location",
+      "split": "train",
+      "base_text": "How do I find Olive Table?",
+      "base_text_sha256": "097d9341cc975c5c4fbee40cfd96efb9e0846f96bec3a7d80af56d541f28aa07"
+    },
+    {
+      "family_id": "location_004",
+      "intent": "location",
+      "split": "development",
+      "base_text": "Can you give me directions to the restaurant?",
+      "base_text_sha256": "4867d94ef7b39d6727b205b0b9f13cb17a5005ec6a10f080d97243a0f1a6efb5"
+    },
+    {
+      "family_id": "location_005",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Which street are you on?",
+      "base_text_sha256": "40a1fe13c259277eb005b1fa10f8c3d9b5105b6cb6273fc6bb4b767cfe88d5da"
+    },
+    {
+      "family_id": "location_006",
+      "intent": "location",
+      "split": "train",
+      "base_text": "What postcode should I put into my map?",
+      "base_text_sha256": "75e41c94ea93f7d561456a52915045b1c896e21741d66476afebb8436fd43b11"
+    },
+    {
+      "family_id": "location_007",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Where exactly is the entrance?",
+      "base_text_sha256": "8f0be7b2b7dbad2ce2cefb967f9b6a5bb380b8c61e4b86e48e58b762925bb460"
+    },
+    {
+      "family_id": "location_008",
+      "intent": "location",
+      "split": "train",
+      "base_text": "I need the address for my taxi driver.",
+      "base_text_sha256": "1521bc37d3f1a6ec948138fe36ad50e1d162495a7c68514566053411144bbb3d"
+    },
+    {
+      "family_id": "location_009",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Are you near the town centre?",
+      "base_text_sha256": "02ae38c4ea7c434138b8b08c003a3b30d6f1606caead140cfddc4bbef0083993"
+    },
+    {
+      "family_id": "location_010",
+      "intent": "location",
+      "split": "train",
+      "base_text": "What is the nearest landmark?",
+      "base_text_sha256": "e681f047df719ce888a840a93ea3889ab799236db24ef038cbdf58779f61ced0"
+    },
+    {
+      "family_id": "location_011",
+      "intent": "location",
+      "split": "train",
+      "base_text": "How can I get there on foot?",
+      "base_text_sha256": "3fdfab9093da42eb8ff29fa82f0f0a5a01f1fde67f39273c795f85516e5184d4"
+    },
+    {
+      "family_id": "location_012",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Which bus stop is closest to you?",
+      "base_text_sha256": "fcbc9b9af0041043c07ee88268ecac79ee1236b0cb982f0192a4582b7dc8109c"
+    },
+    {
+      "family_id": "location_013",
+      "intent": "location",
+      "split": "development",
+      "base_text": "Could you point me towards the restaurant?",
+      "base_text_sha256": "0dcdcdef578b742c174f2153856086d3e77fcf3d8ad361ed983173d493cfe76b"
+    },
+    {
+      "family_id": "location_014",
+      "intent": "location",
+      "split": "development",
+      "base_text": "What part of town is Olive Table in?",
+      "base_text_sha256": "538561755c807c226e391fcc72d8aedef5673dfcf5db123ef76294900b756882"
+    },
+    {
+      "family_id": "location_015",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Is there a railway station nearby?",
+      "base_text_sha256": "7ca51bc6bc08086742514651da1a95a91277c18244f312944414f796050a97e5"
+    },
+    {
+      "family_id": "location_016",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Please tell me where to come for dinner.",
+      "base_text_sha256": "5f6b9d90028261493b069e626e1773bc4a5ba055656c747dce4ea87b75a5534c"
+    },
+    {
+      "family_id": "location_017",
+      "intent": "location",
+      "split": "train",
+      "base_text": "I cannot find your building on the map.",
+      "base_text_sha256": "758140bed25acdc77dbc5f8bee264130f6d24c957bb750d217c661c061b878fc"
+    },
+    {
+      "family_id": "location_018",
+      "intent": "location",
+      "split": "development",
+      "base_text": "What is the full postal address?",
+      "base_text_sha256": "5ae8392c2f8c483fcf3be346118b848ddbee9c43b31cbba4031181f46f23d8d2"
+    },
+    {
+      "family_id": "location_019",
+      "intent": "location",
+      "split": "train",
+      "base_text": "How far are you from the main square?",
+      "base_text_sha256": "bbafa60bdc8faa88b16f8dc00c0b51e7c7b4d9548854677a6f5bcbe20b3d0336"
+    },
+    {
+      "family_id": "location_020",
+      "intent": "location",
+      "split": "train",
+      "base_text": "Where should our driver drop us off?",
+      "base_text_sha256": "6d8de32aed767f3fe35800e200314af2f7b8cac5b682dc78fffe752fb4cab322"
+    },
+    {
+      "family_id": "menu_001",
+      "intent": "menu",
+      "split": "development",
+      "base_text": "Can I see your menu?",
+      "base_text_sha256": "816fd4137dad945373af60724cded2751a7f032e2aa9e3a438eca856fc295597"
+    },
+    {
+      "family_id": "menu_002",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "What food do you serve?",
+      "base_text_sha256": "9b2c564a249cc74308f58da70c409de0190a9b25964a7826164d78a2c0b9ad71"
+    },
+    {
+      "family_id": "menu_003",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Which starters are available?",
+      "base_text_sha256": "1764a762922e8830648e3214d03ae9e594901848b2b462e3d9401def254a2033"
+    },
+    {
+      "family_id": "menu_004",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "What desserts are on the menu?",
+      "base_text_sha256": "7e00b41776ec8324b8540a747fc9d0a780f63522accc61cc74c6a0f473c80c24"
+    },
+    {
+      "family_id": "menu_005",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Do you have a drinks list?",
+      "base_text_sha256": "6637cb5c72cc924714d757d2c098e255de8c2dd20d4caa76dd1774c9ba5837ec"
+    },
+    {
+      "family_id": "menu_006",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Tell me about your main courses.",
+      "base_text_sha256": "faa5986cce372391cd15a4e4c29976d4a99e6e84384b9c0f662fb474758ad098"
+    },
+    {
+      "family_id": "menu_007",
+      "intent": "menu",
+      "split": "development",
+      "base_text": "What cuisine does the restaurant serve?",
+      "base_text_sha256": "2812bdad458d9be0c478c81b8484957859757115aff5d552f54ae40d189ce006"
+    },
+    {
+      "family_id": "menu_008",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Is there a list of your dishes?",
+      "base_text_sha256": "f90a159a2d6515eb717f6a223e660e69b5166402e415ec5e216293aeb868f324"
+    },
+    {
+      "family_id": "menu_009",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Can you show me the prices?",
+      "base_text_sha256": "156aac1eb9785006860bc44116b695a9b9a518b3f3ee6eaa814b16a40466b0e9"
+    },
+    {
+      "family_id": "menu_010",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "What is available to eat here?",
+      "base_text_sha256": "6f4aa6d353d9c2af6b837b8839793968a0c9f85018e2423af8defb98767bad98"
+    },
+    {
+      "family_id": "menu_011",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Are side dishes listed separately?",
+      "base_text_sha256": "0624dcd33bbfb1c601c960da286530f37686c52205f88bfec4a536b2376b16a5"
+    },
+    {
+      "family_id": "menu_012",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "I would like to browse the dinner menu.",
+      "base_text_sha256": "845cbfd9360a7f4b70243698699c35987d893fbf88a4d9e385ce241a57e2e218"
+    },
+    {
+      "family_id": "menu_013",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "What kinds of meals are on offer?",
+      "base_text_sha256": "1d379af00b5c4bcb84e081f8f1eb04dea520aec6eccfeb3966888808be29bb8c"
+    },
+    {
+      "family_id": "menu_014",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Do you serve Mediterranean food?",
+      "base_text_sha256": "3b982f58cd6a4eef3890db92a985e9e9cfb73885665ffea7105ddd675479a6c2"
+    },
+    {
+      "family_id": "menu_015",
+      "intent": "menu",
+      "split": "development",
+      "base_text": "Show me your selection of drinks.",
+      "base_text_sha256": "224dd1cc2366e3087ebe023f9a44e954120c2936432fcd55ba017c4b24ec48dd"
+    },
+    {
+      "family_id": "menu_016",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Can I read the food descriptions?",
+      "base_text_sha256": "a14da55c8a37828e7a2277df72fce0d6abf036ba240fa1b833a6a5a05b54a998"
+    },
+    {
+      "family_id": "menu_017",
+      "intent": "menu",
+      "split": "development",
+      "base_text": "What does the lunch menu include?",
+      "base_text_sha256": "93ffc63d3b56f57a1e5e3246ae98ec5f6aad2a1e12223040e954c78dec2ec20f"
+    },
+    {
+      "family_id": "menu_018",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Which sweets can we order after dinner?",
+      "base_text_sha256": "7da123b6cfcf04240bbd1beffd36f1379a61c809fcf0c95879559fb1da784d5b"
+    },
+    {
+      "family_id": "menu_019",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "Give me an overview of the restaurant menu.",
+      "base_text_sha256": "8de8c5dc38e094d34956a3810e5cb0e23a83b48f13b01c2d83e19111d41e3771"
+    },
+    {
+      "family_id": "menu_020",
+      "intent": "menu",
+      "split": "train",
+      "base_text": "I want to look through all the dishes.",
+      "base_text_sha256": "9eea1e911dcf7dc3af3abd8e892d0a7f65b025cb463d25baa3f2cb71755f80a6"
+    },
+    {
+      "family_id": "parking_001",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Is there parking near the restaurant?",
+      "base_text_sha256": "ca54e25e4390006a84ba87d3f2e17118621847f4716de2b6f6fcf1fdc2240e02"
+    },
+    {
+      "family_id": "parking_002",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Do you have a car park?",
+      "base_text_sha256": "c818dd68e5ce96e71b7faee0fa7a6db2538a3d284ca02495312adc359e3fdad6"
+    },
+    {
+      "family_id": "parking_003",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Where can I park my car?",
+      "base_text_sha256": "bb06c21ea4ab0cc74b39dcb0964e960d6035926d55ff5df5b32fcc20b553d100"
+    },
+    {
+      "family_id": "parking_004",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Are there parking spaces for diners?",
+      "base_text_sha256": "4ca093b63b88fa0b2f8a3c1e7261d2c467e2e854a5c070ca34d12b728249a8d7"
+    },
+    {
+      "family_id": "parking_005",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Is street parking available nearby?",
+      "base_text_sha256": "9a70c84ce14206d90d4c604c0be512a0058fd1a5dbb02f12a040efd7eb69573d"
+    },
+    {
+      "family_id": "parking_006",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Which public car park is closest?",
+      "base_text_sha256": "6f9517f633aabe2e9e793a3f45b236945c9b80a7aa622f78fa9dd18a73f326d9"
+    },
+    {
+      "family_id": "parking_007",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Does the restaurant provide free parking?",
+      "base_text_sha256": "0d99bdf0ff32c0ca673de43bbbef4b18661fb6e2b06ea806d95e2f453da92ed8"
+    },
+    {
+      "family_id": "parking_008",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Can we leave our car outside?",
+      "base_text_sha256": "203bbe3667e75581af9e2760b4d868058ba5e22e006ad5c652fad6507df5f912"
+    },
+    {
+      "family_id": "parking_009",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Are there any parking charges?",
+      "base_text_sha256": "2d4636b7f930b387ff5e3dc7c020d6134595964cb0110104b3c1214178d266c9"
+    },
+    {
+      "family_id": "parking_010",
+      "intent": "parking",
+      "split": "development",
+      "base_text": "Is there somewhere to park for dinner?",
+      "base_text_sha256": "633066b25b18dcf169e703c5258a1597085cd4b2ff4d48a24b5674d317baffb7"
+    },
+    {
+      "family_id": "parking_011",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "What are the local parking options?",
+      "base_text_sha256": "77eccdc6499bef99ce79323809aad2c4254bd33b66352fe2090c8c2ab5f63a4a"
+    },
+    {
+      "family_id": "parking_012",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Do customers get a reserved parking bay?",
+      "base_text_sha256": "c99534087fbdddc42dbd6523d22e8419bff20b67f262d61a6a51834e778f1cbb"
+    },
+    {
+      "family_id": "parking_013",
+      "intent": "parking",
+      "split": "development",
+      "base_text": "We will drive there and need to park.",
+      "base_text_sha256": "5c4a84fe40dacdc6e0a8349353f0c1aa82c00875643813864566fc7041bb96cb"
+    },
+    {
+      "family_id": "parking_014",
+      "intent": "parking",
+      "split": "development",
+      "base_text": "Can you recommend a nearby car park?",
+      "base_text_sha256": "da211d38e36ffe80924024f498faf9eff895573c8cbf2625062e6c5049dcebf2"
+    },
+    {
+      "family_id": "parking_015",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Is overnight parking allowed close by?",
+      "base_text_sha256": "390268c1f63c92142f293984fb2ebb97b6be45867c0b7e1533b053b74ff4535d"
+    },
+    {
+      "family_id": "parking_016",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Are there accessible parking bays nearby?",
+      "base_text_sha256": "22b36de904b6c9eceedeaab42e5b749dbfadce70bf68995c0f087aa1eb17da9d"
+    },
+    {
+      "family_id": "parking_017",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "How difficult is it to find a parking space?",
+      "base_text_sha256": "cdd90ffa431fc6aeff34803856ccfaf029ecd575868fb5741d8779b961c40863"
+    },
+    {
+      "family_id": "parking_018",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Do you validate parking tickets?",
+      "base_text_sha256": "ea4df6dca3bebe603c04088587ce9edbde7d846f5325a5e899e09a250a2f75a4"
+    },
+    {
+      "family_id": "parking_019",
+      "intent": "parking",
+      "split": "train",
+      "base_text": "Is parking included with our meal?",
+      "base_text_sha256": "ce22d05759eef5adb9d6d687c335c664cd97b07014aa090e7503327c75cb5520"
+    },
+    {
+      "family_id": "parking_020",
+      "intent": "parking",
+      "split": "development",
+      "base_text": "Tell me where drivers can leave their vehicles.",
+      "base_text_sha256": "bacb45c6e1fea63fa19f3f6ad9b874191af2965dd978a76dd02615efbaccabef"
+    },
+    {
+      "family_id": "payment_001",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "What payment methods do you accept?",
+      "base_text_sha256": "3033519f424c6c9191aaa30479010830294d8d9e35a4208bef0abe0bc4e28f25"
+    },
+    {
+      "family_id": "payment_002",
+      "intent": "payment",
+      "split": "development",
+      "base_text": "Can I pay with a credit card?",
+      "base_text_sha256": "e19d173c1dec86fdb83dc227d2e2e404b2ae933f6fb38e33f92922132cc37dc9"
+    },
+    {
+      "family_id": "payment_003",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Do you accept cash?",
+      "base_text_sha256": "ec81ebfa02a0c964904a025dd894a533414060155260825dd840de6971c418b7"
+    },
+    {
+      "family_id": "payment_004",
+      "intent": "payment",
+      "split": "development",
+      "base_text": "Is contactless payment available?",
+      "base_text_sha256": "40faea0ee08d92b293b2bfa1dd897018bd0ec15d823d6efca7ccf8dc93088fe8"
+    },
+    {
+      "family_id": "payment_005",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Can I use a debit card for the bill?",
+      "base_text_sha256": "ddb73641eca5c58c6f2b14c2bcaf441bfb707368ecc1a29b32e59ef14ea141d2"
+    },
+    {
+      "family_id": "payment_006",
+      "intent": "payment",
+      "split": "development",
+      "base_text": "Do you take mobile wallet payments?",
+      "base_text_sha256": "84d070bcb3d84fe07191567583ba467f3da09cc9d1d9e21c20105f93691cf0f2"
+    },
+    {
+      "family_id": "payment_007",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Is Apple Pay accepted?",
+      "base_text_sha256": "7bb95f63bfaa8f2cb80529a5666aa4e3a3ecf4f362c689af08298dee942e83c1"
+    },
+    {
+      "family_id": "payment_008",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "May we split the bill between cards?",
+      "base_text_sha256": "6931f04991a57e087acf6271c048f5abd864f912dfc9c5347be2a8fe50291f64"
+    },
+    {
+      "family_id": "payment_009",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Can I settle the bill in cash?",
+      "base_text_sha256": "ed59b46c55311ce9d085082d77420ecf6298b6398b0d7da724f6fa95eceb69ea"
+    },
+    {
+      "family_id": "payment_010",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "What cards can I use to pay?",
+      "base_text_sha256": "068d69b4a8103a7dd6ab0bf1080d72ff26ffbd71d2dc67fc94bc8c9730b74b8b"
+    },
+    {
+      "family_id": "payment_011",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Are digital wallets supported at the till?",
+      "base_text_sha256": "6ce5a415996e6e0e24e5a057316056c14e95890bd3a9f612f15a93ade202065a"
+    },
+    {
+      "family_id": "payment_012",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Do you accept bank card payments?",
+      "base_text_sha256": "62eb16fa5d31bd18cd9c5ce6b86d1479d7b29afabf6c7a811e77e0a4a0956b3d"
+    },
+    {
+      "family_id": "payment_013",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Is this restaurant cashless?",
+      "base_text_sha256": "ad14e9ca8486901d4d018bd89a6d4e6db39b05d554c7803379a37485455d7a54"
+    },
+    {
+      "family_id": "payment_014",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Can two people pay separately?",
+      "base_text_sha256": "9f242088edb57ef2b0900c9674583e20d6cf30f065c6519fdaf3adb12bae037e"
+    },
+    {
+      "family_id": "payment_015",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Will the card machine take contactless?",
+      "base_text_sha256": "a8530ecdf6218fa260895fb6daa85c4e046eee208dd648d8be5cd67208330535"
+    },
+    {
+      "family_id": "payment_016",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "How can we pay for our meal?",
+      "base_text_sha256": "ae8375d79400e4ebd08be4eff6dbe8acd38bc93b85aa4fb812cd22c09b815e61"
+    },
+    {
+      "family_id": "payment_017",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Can I use Google Pay here?",
+      "base_text_sha256": "e7bcbf7b62c5abe37d5f1c5b5c36e1b9c78eeba2d9cde450e38d1ba5723ae4ef"
+    },
+    {
+      "family_id": "payment_018",
+      "intent": "payment",
+      "split": "development",
+      "base_text": "Do you take both coins and notes?",
+      "base_text_sha256": "944accb64b18edb2fc23583609779b2fb8a3e8876d4b040cb5f7b6dad8956dfc"
+    },
+    {
+      "family_id": "payment_019",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "I need to know the accepted forms of payment.",
+      "base_text_sha256": "2c72e8302a824429706efa073ee4e47ff4c969861f6c8dd04dbae0c2cd64dd33"
+    },
+    {
+      "family_id": "payment_020",
+      "intent": "payment",
+      "split": "train",
+      "base_text": "Can our table request separate bills?",
+      "base_text_sha256": "75d28e425d18d0eea03e961bfb14fb38ecd9dff8a8d89c72f5b545442598a77e"
+    },
+    {
+      "family_id": "pets_001",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Can I bring my dog?",
+      "base_text_sha256": "73fb378df714df1e131693457f893d7574f963f784a8bafe987457a0c2fa2238"
+    },
+    {
+      "family_id": "pets_002",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Are pets allowed in the restaurant?",
+      "base_text_sha256": "b126a6ce52bbbae1f69fe4a40569d4ef97e20e22d8631f25b442003cec2022da"
+    },
+    {
+      "family_id": "pets_003",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Is Olive Table dog friendly?",
+      "base_text_sha256": "b4d28f1eab0a43d0ca46cb2fa0251638b5afad273d4275139efba37824765a34"
+    },
+    {
+      "family_id": "pets_004",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Can a small dog sit under our table?",
+      "base_text_sha256": "35162f0ea282d6ad326aca48ef7599527dd3f96531883ac659c4f10fbd35301b"
+    },
+    {
+      "family_id": "pets_005",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Do you welcome assistance dogs?",
+      "base_text_sha256": "03f55e5750ac70b9d04fbe6594aecf5b5ade75993f516dd1017e298f16e06c31"
+    },
+    {
+      "family_id": "pets_006",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Are animals permitted indoors?",
+      "base_text_sha256": "44522ef98daf57a5a542c49253beff1b8c74c688843e129c5cb213e6b9c5a76b"
+    },
+    {
+      "family_id": "pets_007",
+      "intent": "pets",
+      "split": "development",
+      "base_text": "Can we dine with our pet?",
+      "base_text_sha256": "b36a60b6dfd12ca27ea998a2c98d1af993a510a42afcbe5723e5f1cb64ec60d7"
+    },
+    {
+      "family_id": "pets_008",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "What is your policy about dogs?",
+      "base_text_sha256": "5cd0926f174ab1581c193d0427b2ed54a5c691e73b5ac7313eac1e78f9f89aa1"
+    },
+    {
+      "family_id": "pets_009",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "May I bring my puppy to lunch?",
+      "base_text_sha256": "ec665eb0164a5a6467ea5459da3ae24b10edd9fe4822e0d3665415af43ea04ac"
+    },
+    {
+      "family_id": "pets_010",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Are dogs allowed on the terrace?",
+      "base_text_sha256": "3c06baa2b6f9680184105cfbdc79741a1c4096198608e17457e6b52808a2d625"
+    },
+    {
+      "family_id": "pets_011",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Do you have a pet-friendly seating area?",
+      "base_text_sha256": "bd6158749d58f86aa7c25c3b8bee7cc462d3c3b96d8a2af487a07932334c6a49"
+    },
+    {
+      "family_id": "pets_012",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Will my guide dog be welcome?",
+      "base_text_sha256": "8a5ae6d2e8fbac964b1e2f002fa779fe2967bae2b3a71e2996fa87c32c6f0771"
+    },
+    {
+      "family_id": "pets_013",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Can a dog accompany its owner during dinner?",
+      "base_text_sha256": "3c517aff4f96056909fbaafcd400085050a73c201ed360520a46c6917705f96d"
+    },
+    {
+      "family_id": "pets_014",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Do guests need to leave their pets outside?",
+      "base_text_sha256": "15be521d4e99445dc66640d8c9946d29eea0a407b9c95751335a115d729ee6e7"
+    },
+    {
+      "family_id": "pets_015",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Is your dining room open to dogs?",
+      "base_text_sha256": "2a422e7b4842471dab89bda14c3216e44bc1962aa16a8a45ebc66004830fc48e"
+    },
+    {
+      "family_id": "pets_016",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "We would like to visit with a dog on a lead.",
+      "base_text_sha256": "a0c0c8f97082376710f85944e148716630cc96aaf9855806db6a1267f4f2509f"
+    },
+    {
+      "family_id": "pets_017",
+      "intent": "pets",
+      "split": "development",
+      "base_text": "Are service animals accepted?",
+      "base_text_sha256": "6bd07a0ac3acc15609fc76523bf26c9218ad3cefd8078695bc55e9999f7275e8"
+    },
+    {
+      "family_id": "pets_018",
+      "intent": "pets",
+      "split": "train",
+      "base_text": "Could I bring a pet in a carrier?",
+      "base_text_sha256": "3583ff3f2da54a9b97f32db3bdd0c817bea03defc712e37a5433f6f7a59375e0"
+    },
+    {
+      "family_id": "pets_019",
+      "intent": "pets",
+      "split": "development",
+      "base_text": "Is there anywhere dogs can sit with diners?",
+      "base_text_sha256": "dde79696f37baa7e939f70b22de6c7ef2a1530e6d836288336f0806a02ad1a67"
+    },
+    {
+      "family_id": "pets_020",
+      "intent": "pets",
+      "split": "development",
+      "base_text": "Please explain the restaurant's pet rules.",
+      "base_text_sha256": "ab7e9698d22996ab8c5a43ae4e0b30e79bd1496aa04b75ce061c01b67ea08271"
+    },
+    {
+      "family_id": "recommendation_001",
+      "intent": "recommendation",
+      "split": "development",
+      "base_text": "What would you recommend for dinner?",
+      "base_text_sha256": "6fddb487098e0624b6110b095c5f615dc87c86b72a4629af3dd9746f25471095"
+    },
+    {
+      "family_id": "recommendation_002",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Help me choose something to eat.",
+      "base_text_sha256": "a0be96bd7e8858b923a9e2c01a68eb04dd4a0f43996baf0b7ca6ff3e3f25e34f"
+    },
+    {
+      "family_id": "recommendation_003",
+      "intent": "recommendation",
+      "split": "development",
+      "base_text": "I am vegan. What can you suggest?",
+      "base_text_sha256": "34ec8ad72b17eed3d60a1e8391e471c11243efa136dda829ab7beac7c9b8151e"
+    },
+    {
+      "family_id": "recommendation_004",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Recommend a vegetarian main course.",
+      "base_text_sha256": "2b24eb8f850ddb5a8b0efe045f8bffea190fa9daf82f6467e2eed391d191aa40"
+    },
+    {
+      "family_id": "recommendation_005",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "I would like a meal under fifteen pounds.",
+      "base_text_sha256": "104b03139b2571afe966a0070c8506e3dfe5443b759f726a77670a85d478eb95"
+    },
+    {
+      "family_id": "recommendation_006",
+      "intent": "recommendation",
+      "split": "development",
+      "base_text": "Which dish should I try first?",
+      "base_text_sha256": "b9d8f553c9ea0eeb3804fc716de0f7e0951ea8b5a3dcff9ee62f916dcbbedf0d"
+    },
+    {
+      "family_id": "recommendation_007",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Can you suggest something that is not spicy?",
+      "base_text_sha256": "c50479dc2269fee22ce60299700a614a937320b344747e046dc3097dbbc7a6ae"
+    },
+    {
+      "family_id": "recommendation_008",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "I do not eat meat. What would suit me?",
+      "base_text_sha256": "bb10bab78e0d967673a11f5b9c49217bc4e7b7d66b9a326a3a90b31b238dc4b1"
+    },
+    {
+      "family_id": "recommendation_009",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Please pick a light meal for me.",
+      "base_text_sha256": "c138ed823781fa825e0f6f172cf4f9fa3bea28421b192d5e659389697a80399e"
+    },
+    {
+      "family_id": "recommendation_010",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "What is a good choice for someone who loves fish?",
+      "base_text_sha256": "82195967d201f1461dad4b72d5d76d5f6664d79fb3efd3baeeab42673187bafb"
+    },
+    {
+      "family_id": "recommendation_011",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Suggest a dinner without mushrooms.",
+      "base_text_sha256": "0892160c1903293014c2c807f0a3299dd2b5c6c4a5fc22bb20d12d6ecc99950e"
+    },
+    {
+      "family_id": "recommendation_012",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "I am in the mood for a hearty main.",
+      "base_text_sha256": "6280b339e6d02e19e00f7f267f3f3800da552fc30316e811964a7bda730869a3"
+    },
+    {
+      "family_id": "recommendation_013",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "What is your favourite dish to recommend?",
+      "base_text_sha256": "8939b02383e766b4d6ef897c4ae839d20a60030dceedc04f2380d77a9931d975"
+    },
+    {
+      "family_id": "recommendation_014",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Can you find a cheaper option for my meal?",
+      "base_text_sha256": "9d3ebbea6740e0b8c205ba03dbdfdd36d2ef1b5ab1ae146b2c1471710f25baee"
+    },
+    {
+      "family_id": "recommendation_015",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "I want something plant based for lunch.",
+      "base_text_sha256": "00fe15d266341d66487beaac7e301a2eac1359ce9c6188ff05f485b62e85f83b"
+    },
+    {
+      "family_id": "recommendation_016",
+      "intent": "recommendation",
+      "split": "development",
+      "base_text": "Which dessert would you suggest?",
+      "base_text_sha256": "e69f14a73fa3bd37038c94d7e66528655e32b352d3f280c4bb2acf2d0829786e"
+    },
+    {
+      "family_id": "recommendation_017",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "I prefer mild food. Help me decide.",
+      "base_text_sha256": "f04f285e3aea503169579d95a880ac73f7c6370712c7c3b2929f6878d7e88ca5"
+    },
+    {
+      "family_id": "recommendation_018",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Recommend a starter with no cheese.",
+      "base_text_sha256": "0a479e0e97b9cbf6a9851bbaa2eabbe24bff4551a07363571c44f3871bd0e536"
+    },
+    {
+      "family_id": "recommendation_019",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "What should I order if I want vegetables?",
+      "base_text_sha256": "7149cdcc64be85c50334f432d68c05c12dd44a2df6de3f0318f4f51b595e32fb"
+    },
+    {
+      "family_id": "recommendation_020",
+      "intent": "recommendation",
+      "split": "train",
+      "base_text": "Could you suggest a dish within my budget?",
+      "base_text_sha256": "df89b1a14ab24adbec26203d514d62fd293be48bbfabd49c20985073e22a0924"
+    },
+    {
+      "family_id": "reservations_001",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "How do I reserve a table?",
+      "base_text_sha256": "b04469fd909033ce22f6b86a4147eb3ebbaba0c06e506578c0761325a8c64dcc"
+    },
+    {
+      "family_id": "reservations_002",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Can I make a dinner booking?",
+      "base_text_sha256": "3dd970d9e803d416ff5fc23456b4245f814f17ad8c32ce25beb596f36bf0633f"
+    },
+    {
+      "family_id": "reservations_003",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "I would like a table for two people.",
+      "base_text_sha256": "32b87bacde026d6884ed71e25072b1aa9dea26cf915d855756d5099b13d740d7"
+    },
+    {
+      "family_id": "reservations_004",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Is it possible to book for Saturday night?",
+      "base_text_sha256": "41eac9e16ce2a2053e5bb1eb7836c80370967f9ce8749a16f74bc56ab5ffaca8"
+    },
+    {
+      "family_id": "reservations_005",
+      "intent": "reservations",
+      "split": "development",
+      "base_text": "Do you take advance reservations?",
+      "base_text_sha256": "d5b56e27ef128221142df80ee04c2b7013e590f126016185bc93d3a7adc98bbf"
+    },
+    {
+      "family_id": "reservations_006",
+      "intent": "reservations",
+      "split": "development",
+      "base_text": "Can our group reserve seats together?",
+      "base_text_sha256": "19fc9b31b09d628c8bc62c8ca8d17ed9ba959b2447a680fd840c10485d0276a8"
+    },
+    {
+      "family_id": "reservations_007",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Who should I contact to book a table?",
+      "base_text_sha256": "a14d588e0a355a7fb07771ab0ebadaf99599243fcdb7eae7964bcf0737189a84"
+    },
+    {
+      "family_id": "reservations_008",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "I need a table for a birthday dinner.",
+      "base_text_sha256": "652355ad62293d58d337c390c19cafdc715e876e2cf6988b6cfb443c4b5c5c16"
+    },
+    {
+      "family_id": "reservations_009",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "May I arrange a reservation for tomorrow?",
+      "base_text_sha256": "6a4e010c3e1b96bd267b5a768bf8717b4c600cf3204efe60978e14e73916bf65"
+    },
+    {
+      "family_id": "reservations_010",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Are walk-in diners welcome?",
+      "base_text_sha256": "c89e56f7d98d3840f33cfe8b6b950a57d8fa8f89dabbc1dfc15e05a1683bfad7"
+    },
+    {
+      "family_id": "reservations_011",
+      "intent": "reservations",
+      "split": "development",
+      "base_text": "What is the procedure for table bookings?",
+      "base_text_sha256": "2b9063bd5ab7b27b520d29a498c24b210cb8af4fad727112dd22d6b9791c039d"
+    },
+    {
+      "family_id": "reservations_012",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Can you help us plan a table reservation?",
+      "base_text_sha256": "0e942a8d67ce2eb350f2aa638a677d5ae1e876badd91c31daecefd4e2a4df69e"
+    },
+    {
+      "family_id": "reservations_013",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Is there a number to call for bookings?",
+      "base_text_sha256": "86575c5abe8b968f4e334b7ac61298504c483293e9a24a8573dc9ea0f68e20ca"
+    },
+    {
+      "family_id": "reservations_014",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "We want to book lunch for six guests.",
+      "base_text_sha256": "076e5709e53529582ff7b6b56c1f84e2d49d18b0aae8d0e9f61a5f684953685b"
+    },
+    {
+      "family_id": "reservations_015",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Do I need to reserve before arriving?",
+      "base_text_sha256": "b858aeb66b8488035600c3c91f9a582169dd47d5ac20338427a22776c67aa4f3"
+    },
+    {
+      "family_id": "reservations_016",
+      "intent": "reservations",
+      "split": "development",
+      "base_text": "How far in advance can I book?",
+      "base_text_sha256": "6338bc38a5303284228676a1095d7a57188e53f1745891c5b5fdb7071815b07e"
+    },
+    {
+      "family_id": "reservations_017",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Could I request a table by the window?",
+      "base_text_sha256": "1a178c98f0e3f5a7657826b5b6314f3712c55210fd4520fb551410869c119322"
+    },
+    {
+      "family_id": "reservations_018",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Can a large party make a reservation?",
+      "base_text_sha256": "3db707b04b29a77a1cde0b8196365dac8640b8277bf823ae808ea77c4ffde525"
+    },
+    {
+      "family_id": "reservations_019",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "I am looking to secure a table this evening.",
+      "base_text_sha256": "44f95acfaea99545de885d52c0510479bf7f4115f1efeb84f34eabe855dc3252"
+    },
+    {
+      "family_id": "reservations_020",
+      "intent": "reservations",
+      "split": "train",
+      "base_text": "Please explain how table reservations work.",
+      "base_text_sha256": "dec0517d553c1bb639adf4d512b71d67bb791c45bd7ef1bb7b2f5a8bd2950a15"
+    },
+    {
+      "family_id": "service_charge_001",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Is a service charge added to the bill?",
+      "base_text_sha256": "743f979cfa8803c46394252426a9b81976c70edc615d5cfd5ffeb9145bfe868a"
+    },
+    {
+      "family_id": "service_charge_002",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Do you include a tip automatically?",
+      "base_text_sha256": "4543aa1dfc3fe4c6ac06c9a3023e055479514d4b28d4f507141fa3dbcaaf3d1f"
+    },
+    {
+      "family_id": "service_charge_003",
+      "intent": "service_charge",
+      "split": "development",
+      "base_text": "What percentage is the service charge?",
+      "base_text_sha256": "89524f9b41ece014b6afb9997a56ae808cfa040ab183160f5858d2f6abd72b56"
+    },
+    {
+      "family_id": "service_charge_004",
+      "intent": "service_charge",
+      "split": "development",
+      "base_text": "Is tipping expected?",
+      "base_text_sha256": "c798bc7950702687590a2feaef02535822e7f249f5b0404c856ad737afd21a71"
+    },
+    {
+      "family_id": "service_charge_005",
+      "intent": "service_charge",
+      "split": "development",
+      "base_text": "Is the gratuity optional?",
+      "base_text_sha256": "40eac5f397abf646dc20ff40e484b830487fba38abb42e7e68d02a94f117a6fc"
+    },
+    {
+      "family_id": "service_charge_006",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Can I remove the discretionary service charge?",
+      "base_text_sha256": "ccf99ed9f535d96f197908318e4f149f73659bcb4d8450d5f404100ebd99a716"
+    },
+    {
+      "family_id": "service_charge_007",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Are tips already included in the menu prices?",
+      "base_text_sha256": "3cb227bcb6cc4d83f13526edc7a69917efa9d01837597ef6457a99f42fbb9ca9"
+    },
+    {
+      "family_id": "service_charge_008",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Does the bill include a staff tip?",
+      "base_text_sha256": "74b568c918eab5ca79baec53b06f156372dc81a53852e28400c3c4a24bcc72dc"
+    },
+    {
+      "family_id": "service_charge_009",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "How does tipping work at your restaurant?",
+      "base_text_sha256": "e144ee09786abb20b785feea2d1ea6ac461853cbf5ca4196235c9390e499fa38"
+    },
+    {
+      "family_id": "service_charge_010",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Is there an extra charge for table service?",
+      "base_text_sha256": "78fd2ed1765a388e4856d75787a957f40d953f52aac6f037371b0e49199693e6"
+    },
+    {
+      "family_id": "service_charge_011",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Do large groups pay a mandatory gratuity?",
+      "base_text_sha256": "409f10d3f00828f1afb796ab9cf27391a250c782c30246c18336e9d89e77fe94"
+    },
+    {
+      "family_id": "service_charge_012",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Will you add a service fee to our meal?",
+      "base_text_sha256": "53efc817b4051902d9e12ac747907b715a7b9cbbd408bc70ad5defe16c2a119c"
+    },
+    {
+      "family_id": "service_charge_013",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Is the service charge compulsory?",
+      "base_text_sha256": "9d2c312e2a4059779f323c29a6dc4fea84b2f1c526eef775c1f67c188e48a4b2"
+    },
+    {
+      "family_id": "service_charge_014",
+      "intent": "service_charge",
+      "split": "development",
+      "base_text": "Can we leave a tip separately?",
+      "base_text_sha256": "00fee36a7e5e24aad1a88dabad59fb76ad45024c078dba885db117dc8aca7701"
+    },
+    {
+      "family_id": "service_charge_015",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "What is your policy on gratuities?",
+      "base_text_sha256": "717de42265a3cd5333189ba7ed8b9dcfef4d291503d5ac6ad35fcae4885a5a1f"
+    },
+    {
+      "family_id": "service_charge_016",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "How much should I tip the waiting staff?",
+      "base_text_sha256": "66a19ac79ce17bb5a52ca8e689791a567db45f22ef2aac745949719d03e06f1e"
+    },
+    {
+      "family_id": "service_charge_017",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Does the restaurant apply a discretionary charge?",
+      "base_text_sha256": "4f24117393dfe7e54f6f4de893d89827c4871785f98282888355d79f0bf00338"
+    },
+    {
+      "family_id": "service_charge_018",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Are service costs included in the final total?",
+      "base_text_sha256": "243194acf8da8a89e0c1a7b51a341524a65400334a38d00e02de49a465ab28be"
+    },
+    {
+      "family_id": "service_charge_019",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Do I have to pay the suggested tip?",
+      "base_text_sha256": "1cb61a7bc31c59e3f2efb5dfad03f5ca2b29502d253b83baa6a962fc7325b931"
+    },
+    {
+      "family_id": "service_charge_020",
+      "intent": "service_charge",
+      "split": "train",
+      "base_text": "Please explain any extra service charges.",
+      "base_text_sha256": "faea2a6825f84050515ed074fef6e42c73d44cd2a02c5011c4d92e7b5ca5fa67"
+    },
+    {
+      "family_id": "takeaway_001",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Can I order food for collection?",
+      "base_text_sha256": "1fb8f37fe5de788a7722e0bb8ff859b34904d54be5ab872ecdc3f678f49b5206"
+    },
+    {
+      "family_id": "takeaway_002",
+      "intent": "takeaway",
+      "split": "development",
+      "base_text": "Do you offer takeaway meals?",
+      "base_text_sha256": "1b7ae6924a52da9c4e03bf4b7aba4725027ad37c393e9eab6490823b3e195052"
+    },
+    {
+      "family_id": "takeaway_003",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Is it possible to pick up my order?",
+      "base_text_sha256": "e19d2c6bd3b0917d44e1db3595868ecb2709ebad80202748e8116f658b123db8"
+    },
+    {
+      "family_id": "takeaway_004",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Can I collect dinner on my way home?",
+      "base_text_sha256": "6ee1354ce913fdd3ff9534f811cf9532e1011669c38b0efec237d5e3fadb2d8d"
+    },
+    {
+      "family_id": "takeaway_005",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "How do I place a takeaway order?",
+      "base_text_sha256": "47343cb7de30f5275dcf127a14b91b804742fc5ab7b28739fac1f7ee7cfbfb41"
+    },
+    {
+      "family_id": "takeaway_006",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Do you pack dishes to go?",
+      "base_text_sha256": "b2f5d8ccfd60d7a973298bb18369ab6ce57420deacfc4daa64d1bcda99eaf508"
+    },
+    {
+      "family_id": "takeaway_007",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "I want to get some food to take away.",
+      "base_text_sha256": "774fed0a4c323f2c4ec260971a65ed52554119e9ccaa6ca16d016efd7b1b830b"
+    },
+    {
+      "family_id": "takeaway_008",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Can we order ahead and collect it ourselves?",
+      "base_text_sha256": "be4eea43106ca016fdef972e583acb04d5928ac5e61065f55795aa4288655777"
+    },
+    {
+      "family_id": "takeaway_009",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Is click and collect available?",
+      "base_text_sha256": "047b81dec6e3cacc6cfbc2db1b501086d2dafb6f3d6dcce8d2795bc66443652d"
+    },
+    {
+      "family_id": "takeaway_010",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Are your meals available for pickup?",
+      "base_text_sha256": "79ae7b345d46fb0d2ed77d42e17a6134c6097942da2e64485232279628e6fa69"
+    },
+    {
+      "family_id": "takeaway_011",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Where should I collect a takeaway?",
+      "base_text_sha256": "7cd73928cc43b7fbfc80126929f5040f2f5d1813230a1abed548313dc7c23a25"
+    },
+    {
+      "family_id": "takeaway_012",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "May I take my meal home instead of dining in?",
+      "base_text_sha256": "afcbeff223ca66120f8543282cd0ad5e1ce71f8dd079a52e08b0789d9123bc6e"
+    },
+    {
+      "family_id": "takeaway_013",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "How long does preparing a collection order take?",
+      "base_text_sha256": "c74d8a12b5da5900a6c8dc61ab8fd2d1af992c83a663f60d49f588eb71ee86bb"
+    },
+    {
+      "family_id": "takeaway_014",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Can I phone in an order for pickup?",
+      "base_text_sha256": "ada48fbbb42e186e7469889cf65785ef3234a2793b5bdffa4fd928a44ef4bfb6"
+    },
+    {
+      "family_id": "takeaway_015",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "I will come to the restaurant to collect the food.",
+      "base_text_sha256": "8b439bb8de9d6bf93d6cd12b3bdc4c1d6faa809d70dafb756fbe40175f083ea8"
+    },
+    {
+      "family_id": "takeaway_016",
+      "intent": "takeaway",
+      "split": "development",
+      "base_text": "Does the kitchen prepare food to go?",
+      "base_text_sha256": "87e56648186761979af36cc6217da615c2cb1c134c2b0cb16bfa29e7340aecb7"
+    },
+    {
+      "family_id": "takeaway_017",
+      "intent": "takeaway",
+      "split": "development",
+      "base_text": "Is takeaway service available tonight?",
+      "base_text_sha256": "1975583dd7cbb2d4c8fdc28ecfa0feb56ca7b26de6fb9f460c8659cb6bd5706d"
+    },
+    {
+      "family_id": "takeaway_018",
+      "intent": "takeaway",
+      "split": "development",
+      "base_text": "Could my lunch be boxed for collection?",
+      "base_text_sha256": "b7c3b7ae4ccda44de2eeeacfaeac9aed474adcf7dfb8b4fb430029ab62a372d7"
+    },
+    {
+      "family_id": "takeaway_019",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "We would like takeout rather than a table.",
+      "base_text_sha256": "2406749c8440fa5c9b2ff4cb8c04a8eb4d590f6343fdc9167d5270fc74622245"
+    },
+    {
+      "family_id": "takeaway_020",
+      "intent": "takeaway",
+      "split": "train",
+      "base_text": "Tell me about your pickup ordering service.",
+      "base_text_sha256": "34e08feac07ad8a8d172ea543ca4706df0bc5a6a63f814e3714fff380a44ae2e"
+    },
+    {
+      "family_id": "thanks_001",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Thank you",
+      "base_text_sha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d"
+    },
+    {
+      "family_id": "thanks_002",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Thanks for your help",
+      "base_text_sha256": "c6dc62b8e6c5fc099c8b86e009e4ea7057ef78311ebb701fb0d88b42c2a1d3fb"
+    },
+    {
+      "family_id": "thanks_003",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "That was very helpful",
+      "base_text_sha256": "b836eb67247c7e132d172c0d54930267226cdcbf90c8b40432c048932ad29765"
+    },
+    {
+      "family_id": "thanks_004",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "I appreciate the information",
+      "base_text_sha256": "7ac2639b4fa0f76753cfccc4cd61c1f1f4ad11cf72a0f34539d5419bffd02253"
+    },
+    {
+      "family_id": "thanks_005",
+      "intent": "thanks",
+      "split": "development",
+      "base_text": "Thanks a lot Olive",
+      "base_text_sha256": "064096a8e3ed270a6cedc9c25b4c86f16a1f2fd909239b68fd9162bf05fc74a9"
+    },
+    {
+      "family_id": "thanks_006",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Many thanks",
+      "base_text_sha256": "bf037a5e60e25a4298c62f3339e2cb5ee9c3b6ffdd7922da76421a05cc4aba73"
+    },
+    {
+      "family_id": "thanks_007",
+      "intent": "thanks",
+      "split": "development",
+      "base_text": "Thank you for answering my question",
+      "base_text_sha256": "a4883e498a3311349a0d7005fa22f66bd199a769e6ba077a11ccbcbd1b8794a8"
+    },
+    {
+      "family_id": "thanks_008",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "You have been really helpful",
+      "base_text_sha256": "b2071c4b3fafeada166919a7118cccdad1ee459dd18186fff7d7926ee53def34"
+    },
+    {
+      "family_id": "thanks_009",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Cheers, that helps",
+      "base_text_sha256": "eb362286c9bedb35dd8a3887ea899bdf27dc67c7ee5c6365405859a565b94ca2"
+    },
+    {
+      "family_id": "thanks_010",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "I am grateful for the advice",
+      "base_text_sha256": "082d68bddca3e0e6e2816784f533e63bab8efa7f8d9b3dbd413ff7c69111989f"
+    },
+    {
+      "family_id": "thanks_011",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Perfect, thank you",
+      "base_text_sha256": "9948d85be3948b017726236697d2c47bae6e4d6600548b694f3738b3296a1b0d"
+    },
+    {
+      "family_id": "thanks_012",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Thanks for explaining everything",
+      "base_text_sha256": "b08bf6fba2025acb1e65355ebf9119bbdc1074470e9ac0616d8719b2badb8756"
+    },
+    {
+      "family_id": "thanks_013",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "That answers my question, thanks",
+      "base_text_sha256": "399b8876a0d0878dd27e4f9c204c1a6f44be9d7f4eb44844b9270e338a5bfff2"
+    },
+    {
+      "family_id": "thanks_014",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Much appreciated",
+      "base_text_sha256": "63539375c6dd79f51467118af5326bbd5d06d45641bf5df0c2b9950be3f6c6b9"
+    },
+    {
+      "family_id": "thanks_015",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Thank you so much",
+      "base_text_sha256": "056588fdbd6d90073ec5b0869d0f000dfefa8cb939f4ec9437a555340569ce37"
+    },
+    {
+      "family_id": "thanks_016",
+      "intent": "thanks",
+      "split": "development",
+      "base_text": "Great help, cheers",
+      "base_text_sha256": "61fdb9485b876db0deaca8088c86889308b6fb8644b98c38384285806d825609"
+    },
+    {
+      "family_id": "thanks_017",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "Thanks for the recommendation",
+      "base_text_sha256": "f65f71a6336b276ac341df132fcd0c8be6ba2433d070d28e3a6fc28e873e9792"
+    },
+    {
+      "family_id": "thanks_018",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "I appreciate your assistance",
+      "base_text_sha256": "fc82f7eb1aae20dfc3f22732af58013faaa7123bebd8a31c4205af2f26c79225"
+    },
+    {
+      "family_id": "thanks_019",
+      "intent": "thanks",
+      "split": "train",
+      "base_text": "That is useful information, thank you",
+      "base_text_sha256": "d4c97b3c44adfea486e543d6ac5fbaf05d0561c4ff70c0b28416a3a15e4f53e0"
+    },
+    {
+      "family_id": "thanks_020",
+      "intent": "thanks",
+      "split": "development",
+      "base_text": "Brilliant, thanks for checking",
+      "base_text_sha256": "04063a50b1ce09a6af8a04a99388e88a7e91cff51076444926571d55e3a92670"
+    }
+  ]
+}

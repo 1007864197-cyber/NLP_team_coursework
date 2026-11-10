@@ -1,0 +1,38 @@
+{
+  "lab_class": "",
+  "team_number": "",
+  "members": [
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "Knowledge data and restaurant FAQ review"
+    },
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "TF-IDF retrieval and method comparison review"
+    },
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "Dialogue state and recommendation scenario validation"
+    },
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "Web interaction and accessibility validation"
+    },
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "Evaluation, error analysis and reproducibility review"
+    },
+    {
+      "name": "",
+      "student_id": "",
+      "proposed_responsibility": "Report integration, user manual and demonstration rehearsal"
+    }
+  ],
+  "responsibility_status": "Proposed work for members to claim and complete; not a record of completed contributions",
+  "actual_contributions": ""
+}

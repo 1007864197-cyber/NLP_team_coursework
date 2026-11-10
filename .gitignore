@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.log
+.DS_Store
+# Local coursework identity records and submission report
+docs/TEAM_DETAILS.json
+docs/team_report.md
+docs/team_report_draft.pdf
